@@ -31,12 +31,12 @@
             this.btnMarcas = new System.Windows.Forms.Button();
             this.btnCategoria = new System.Windows.Forms.Button();
             this.btnArticulos = new System.Windows.Forms.Button();
-            this.lblAccesos = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnMarcas
             // 
-            this.btnMarcas.Location = new System.Drawing.Point(338, 75);
+            this.btnMarcas.Location = new System.Drawing.Point(353, 86);
             this.btnMarcas.Name = "btnMarcas";
             this.btnMarcas.Size = new System.Drawing.Size(100, 31);
             this.btnMarcas.TabIndex = 1;
@@ -45,7 +45,7 @@
             // 
             // btnCategoria
             // 
-            this.btnCategoria.Location = new System.Drawing.Point(465, 75);
+            this.btnCategoria.Location = new System.Drawing.Point(480, 86);
             this.btnCategoria.Name = "btnCategoria";
             this.btnCategoria.Size = new System.Drawing.Size(100, 31);
             this.btnCategoria.TabIndex = 2;
@@ -54,28 +54,31 @@
             // 
             // btnArticulos
             // 
-            this.btnArticulos.Location = new System.Drawing.Point(202, 75);
+            this.btnArticulos.Location = new System.Drawing.Point(217, 86);
             this.btnArticulos.Name = "btnArticulos";
             this.btnArticulos.Size = new System.Drawing.Size(100, 31);
             this.btnArticulos.TabIndex = 0;
             this.btnArticulos.Text = "ARTICULOS";
             this.btnArticulos.UseVisualStyleBackColor = true;
+            this.btnArticulos.Click += new System.EventHandler(this.btnArticulos_Click);
             // 
-            // lblAccesos
+            // lblTitulo
             // 
-            this.lblAccesos.AutoSize = true;
-            this.lblAccesos.Location = new System.Drawing.Point(111, 84);
-            this.lblAccesos.Name = "lblAccesos";
-            this.lblAccesos.Size = new System.Drawing.Size(57, 13);
-            this.lblAccesos.TabIndex = 4;
-            this.lblAccesos.Text = "Accesos : ";
+            this.lblTitulo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(240, 42);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(325, 31);
+            this.lblTitulo.TabIndex = 15;
+            this.lblTitulo.Text = "ACCESO A ARTICULOS ";
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblAccesos);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnCategoria);
             this.Controls.Add(this.btnMarcas);
             this.Controls.Add(this.btnArticulos);
@@ -92,7 +95,7 @@
         private System.Windows.Forms.Button btnMarcas;
         private System.Windows.Forms.Button btnCategoria;
         private System.Windows.Forms.Button btnArticulos;
-        private System.Windows.Forms.Label lblAccesos;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }
 

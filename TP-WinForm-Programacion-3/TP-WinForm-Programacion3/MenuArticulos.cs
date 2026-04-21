@@ -10,21 +10,13 @@ using System.Windows.Forms;
 
 namespace TP_WinForm_Programacion3
 {
-    public partial class FrmPrincipal : Form
+    public partial class MenuArticulos : Form
     {
-        public FrmPrincipal()
+        public MenuArticulos()
         {
             InitializeComponent();
-        }
 
-        private void btnArticulos_Click(object sender, EventArgs e)
-        {
-            
-
-
-            MenuArticulos ventana = new MenuArticulos();
-            ventana.MdiParent = this;
-            ventana.Show();
+          
         }
     }
 }
