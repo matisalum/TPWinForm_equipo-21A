@@ -23,7 +23,9 @@ namespace TP_WinForm_Programacion3
 
 
             MenuArticulos ventana = new MenuArticulos();
-            ventana.MdiParent = this;
+            this.Hide();
+            ventana.FormClosed += (s, args) => this.Show();
+           // ventana.MdiParent = this;
             ventana.Show();
         }
     }
