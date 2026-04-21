@@ -1,6 +1,6 @@
 ﻿namespace TP_WinForm_Programacion3
 {
-    partial class Form1
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,33 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMarcas = new System.Windows.Forms.Button();
+            this.btnCategoria = new System.Windows.Forms.Button();
+            this.btnArticulos = new System.Windows.Forms.Button();
+            this.lblAccesos = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnMarcas
             // 
-            this.button1.Location = new System.Drawing.Point(305, 157);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "HOLAAAAA";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMarcas.Location = new System.Drawing.Point(338, 75);
+            this.btnMarcas.Name = "btnMarcas";
+            this.btnMarcas.Size = new System.Drawing.Size(100, 31);
+            this.btnMarcas.TabIndex = 1;
+            this.btnMarcas.Text = "MARCAS";
+            this.btnMarcas.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // btnCategoria
+            // 
+            this.btnCategoria.Location = new System.Drawing.Point(465, 75);
+            this.btnCategoria.Name = "btnCategoria";
+            this.btnCategoria.Size = new System.Drawing.Size(100, 31);
+            this.btnCategoria.TabIndex = 2;
+            this.btnCategoria.Text = "CATEGORIAS";
+            this.btnCategoria.UseVisualStyleBackColor = true;
+            // 
+            // btnArticulos
+            // 
+            this.btnArticulos.Location = new System.Drawing.Point(202, 75);
+            this.btnArticulos.Name = "btnArticulos";
+            this.btnArticulos.Size = new System.Drawing.Size(100, 31);
+            this.btnArticulos.TabIndex = 0;
+            this.btnArticulos.Text = "ARTICULOS";
+            this.btnArticulos.UseVisualStyleBackColor = true;
+            // 
+            // lblAccesos
+            // 
+            this.lblAccesos.AutoSize = true;
+            this.lblAccesos.Location = new System.Drawing.Point(111, 84);
+            this.lblAccesos.Name = "lblAccesos";
+            this.lblAccesos.Size = new System.Drawing.Size(57, 13);
+            this.lblAccesos.TabIndex = 4;
+            this.lblAccesos.Text = "Accesos : ";
+            // 
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.lblAccesos);
+            this.Controls.Add(this.btnCategoria);
+            this.Controls.Add(this.btnMarcas);
+            this.Controls.Add(this.btnArticulos);
+            this.IsMdiContainer = true;
+            this.Name = "FrmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FrmPrincipal";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMarcas;
+        private System.Windows.Forms.Button btnCategoria;
+        private System.Windows.Forms.Button btnArticulos;
+        private System.Windows.Forms.Label lblAccesos;
     }
 }
 
