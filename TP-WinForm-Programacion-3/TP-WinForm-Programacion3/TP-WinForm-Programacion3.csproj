@@ -54,6 +54,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuMarca.Designer.cs">
+      <DependentUpon>MenuMarca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Imagen.cs" />
     <Compile Include="Marca.cs" />
     <Compile Include="MenuArticulos.cs">
@@ -66,6 +72,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMarca.resx">
+      <DependentUpon>MenuMarca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuArticulos.resx">
       <DependentUpon>MenuArticulos.cs</DependentUpon>
