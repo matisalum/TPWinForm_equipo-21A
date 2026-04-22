@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace TP_WinForm_Programacion3
 {
-    internal class Marca
+    public class Marca
     {
-        private int Id;
-        private string Descripcion;
-       
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
     }
 }

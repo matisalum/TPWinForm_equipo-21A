@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static TP_WinForm_Programacion3.Articulos;
 
 namespace TP_WinForm_Programacion3
 {
@@ -17,16 +18,24 @@ namespace TP_WinForm_Programacion3
             InitializeComponent();
         }
 
-        private void btnArticulos_Click(object sender, EventArgs e)
+       
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
 
 
-            MenuArticulos ventana = new MenuArticulos();
-            this.Hide();
-            ventana.FormClosed += (s, args) => this.Show();
-           // ventana.MdiParent = this;
-            ventana.Show();
+
+        private void btnAgregando_Click(object sender, EventArgs e)
+        {
+            MenuArticulos frm = new MenuArticulos();
+            frm.ShowDialog();
         }
     }
 }

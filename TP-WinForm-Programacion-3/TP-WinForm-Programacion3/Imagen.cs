@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace TP_WinForm_Programacion3
 {
-    internal class Imagen
+    public class Imagen
     {
-        private int Id;
-        private int IdArticulo;
-        private string ImgenUrl;
-
+        public int Id { get; set; }
+        public string Url { get; set; }
     }
 }

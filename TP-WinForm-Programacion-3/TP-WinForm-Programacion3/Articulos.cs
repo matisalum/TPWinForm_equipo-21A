@@ -8,16 +8,17 @@ namespace TP_WinForm_Programacion3
 {
     internal class Articulos
     {
-        private int Id;
-        private string Codigo;
-        private string Nombre;
-        private string Descripcion;
-        private int IdMarca;
-        private int IdCategoria;
-        private decimal Precio;
-
-        public Articulos()
+        public class Articulo
         {
+            public int Id { get; set; }
+            public string Codigo { get; set; }
+            public string Nombre { get; set; }
+            public string Descripcion { get; set; }
+            public Marca Marca { get; set; }
+            public Categoria Categoria { get; set; }
+            public decimal Precio { get; set; }
+
+            public List<Imagen> Imagenes { get; set; }
         }
     }
 }
