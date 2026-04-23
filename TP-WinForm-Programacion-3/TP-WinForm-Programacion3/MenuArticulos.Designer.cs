@@ -38,13 +38,13 @@
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.ListView();
-            this.lblCarga = new System.Windows.Forms.Label();
             this.btnAgregado = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.cmbMarca = new System.Windows.Forms.ComboBox();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtbCargaDeDatos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -147,17 +147,6 @@
             this.txtDescripcion.TabIndex = 13;
             this.txtDescripcion.UseCompatibleStateImageBehavior = false;
             // 
-            // lblCarga
-            // 
-            this.lblCarga.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblCarga.AutoSize = true;
-            this.lblCarga.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCarga.Location = new System.Drawing.Point(175, 69);
-            this.lblCarga.Name = "lblCarga";
-            this.lblCarga.Size = new System.Drawing.Size(174, 31);
-            this.lblCarga.TabIndex = 14;
-            this.lblCarga.Text = "Carga Datos ";
-            // 
             // btnAgregado
             // 
             this.btnAgregado.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -168,7 +157,6 @@
             this.btnAgregado.TabIndex = 15;
             this.btnAgregado.Text = "Agregar ";
             this.btnAgregado.UseVisualStyleBackColor = true;
-           
             // 
             // btnCancelar
             // 
@@ -216,18 +204,27 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "Cargar Imagen(URL) :";
             // 
+            // txtbCargaDeDatos
+            // 
+            this.txtbCargaDeDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbCargaDeDatos.Location = new System.Drawing.Point(181, 69);
+            this.txtbCargaDeDatos.Name = "txtbCargaDeDatos";
+            this.txtbCargaDeDatos.Size = new System.Drawing.Size(227, 38);
+            this.txtbCargaDeDatos.TabIndex = 21;
+            this.txtbCargaDeDatos.Text = "Carga de datos";
+            // 
             // MenuArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 595);
+            this.Controls.Add(this.txtbCargaDeDatos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.cmbMarca);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAgregado);
-            this.Controls.Add(this.lblCarga);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.txtPrecio);
@@ -259,12 +256,12 @@
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.ListView txtDescripcion;
-        private System.Windows.Forms.Label lblCarga;
         private System.Windows.Forms.Button btnAgregado;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ComboBox cmbMarca;
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtbCargaDeDatos;
     }
 }
