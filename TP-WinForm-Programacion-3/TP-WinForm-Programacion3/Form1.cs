@@ -18,7 +18,7 @@ namespace TP_WinForm_Programacion3
             InitializeComponent();
         }
 
-       
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -43,5 +43,16 @@ namespace TP_WinForm_Programacion3
             MenuMarca ventana = new MenuMarca();
             ventana.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MenuCategoria ventana = new MenuCategoria();
+            ventana.ShowDialog();
+        }
+
+
+
     }
 }
+    
+

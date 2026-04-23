@@ -33,7 +33,7 @@
             this.lblIDmarca = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.txbIdMarca = new System.Windows.Forms.TextBox();
-            this.txbDescripcion = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -81,19 +81,22 @@
             this.txbIdMarca.TabIndex = 4;
             this.txbIdMarca.Text = "0000";
             // 
-            // txbDescripcion
+            // txtDescripcion
             // 
-            this.txbDescripcion.Location = new System.Drawing.Point(102, 84);
-            this.txbDescripcion.Name = "txbDescripcion";
-            this.txbDescripcion.Size = new System.Drawing.Size(100, 20);
-            this.txbDescripcion.TabIndex = 5;
+            this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtDescripcion.HideSelection = false;
+            this.txtDescripcion.Location = new System.Drawing.Point(102, 84);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(197, 78);
+            this.txtDescripcion.TabIndex = 14;
+            this.txtDescripcion.UseCompatibleStateImageBehavior = false;
             // 
             // MenuMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(315, 327);
-            this.Controls.Add(this.txbDescripcion);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.txbIdMarca);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.lblIDmarca);
@@ -115,6 +118,6 @@
         private System.Windows.Forms.Label lblIDmarca;
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.TextBox txbIdMarca;
-        private System.Windows.Forms.TextBox txbDescripcion;
+        private System.Windows.Forms.ListView txtDescripcion;
     }
 }

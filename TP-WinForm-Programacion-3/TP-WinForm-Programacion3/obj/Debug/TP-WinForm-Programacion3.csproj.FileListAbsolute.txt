@@ -32,3 +32,5 @@ C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-P
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
