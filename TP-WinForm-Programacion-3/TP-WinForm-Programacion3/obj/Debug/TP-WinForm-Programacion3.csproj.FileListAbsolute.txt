@@ -52,3 +52,6 @@ C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-P
 C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
 C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
 C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date

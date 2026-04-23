@@ -23,7 +23,7 @@ namespace TP_WinForm_Programacion3
             {
                 conexion.ConnectionString = "Server = .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "Select A.Id, codigo, nombre, descripcion, precio, ImagenUrl From ARTICULOS A , IMAGENES I Where A.Id = I.Id";
+                comando.CommandText = "Select A.Id, codigo, nombre,A.descripcion , precio, M.descripcion Marca,C.descripcion Categoria, ImagenUrl From ARTICULOS A , IMAGENES I , MARCAS M , CATEGORIAS C Where A.Id = I.Id And A.IdMarca = M.id And A.IdCategoria = C.Id";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -38,6 +38,12 @@ namespace TP_WinForm_Programacion3
                     aux.Precio = (decimal)lector["precio"];
                     aux.Imagen = new Imagen();
                     aux.Imagen.Url = (string)lector["ImagenUrl"];
+                    aux.Marca = new Marca();
+                    aux.Marca.Descripcion = (string)lector["Marca"];
+                    aux.Categoria = new Categoria();
+                    aux.Categoria.Descripcion = (string)lector["Categoria"];
+
+
                     lista.Add(aux);
                 }
 
