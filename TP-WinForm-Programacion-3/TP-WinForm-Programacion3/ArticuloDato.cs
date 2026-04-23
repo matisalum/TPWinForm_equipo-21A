@@ -5,6 +5,8 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using Dominio;
+
 namespace TP_WinForm_Programacion3
 {
     class ArticuloDato

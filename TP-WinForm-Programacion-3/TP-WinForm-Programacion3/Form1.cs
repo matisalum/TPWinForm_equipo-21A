@@ -8,7 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static TP_WinForm_Programacion3.Articulo;
+using Dominio;
+//using static TP_WinForm_Programacion3.Articulo;
+
 
 namespace TP_WinForm_Programacion3
 {
@@ -83,6 +85,10 @@ namespace TP_WinForm_Programacion3
             }
         }
 
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
     

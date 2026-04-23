@@ -47,3 +47,8 @@ C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Deb
 C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
 C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
 C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
