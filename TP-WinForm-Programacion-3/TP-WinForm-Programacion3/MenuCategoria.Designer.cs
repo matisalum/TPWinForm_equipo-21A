@@ -105,6 +105,7 @@
             this.MaximumSize = new System.Drawing.Size(331, 366);
             this.MinimumSize = new System.Drawing.Size(331, 366);
             this.Name = "MenuCategoria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuCategoria";
             this.ResumeLayout(false);
             this.PerformLayout();

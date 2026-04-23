@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static TP_WinForm_Programacion3.Articulos;
+using static TP_WinForm_Programacion3.Articulo;
 
 namespace TP_WinForm_Programacion3
 {
@@ -50,8 +50,11 @@ namespace TP_WinForm_Programacion3
             ventana.ShowDialog();
         }
 
-
-
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            ArticuloDato datos = new ArticuloDato();
+            dgvArticulos.DataSource = datos.listar();
+        }
     }
 }
     

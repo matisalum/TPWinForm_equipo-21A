@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace TP_WinForm_Programacion3
 {
-    internal class Articulos
-    {
         public class Articulo
         {
             public int Id { get; set; }
@@ -21,4 +19,3 @@ namespace TP_WinForm_Programacion3
             public List<Imagen> Imagenes { get; set; }
         }
     }
-}
