@@ -56,10 +56,10 @@
             this.tsEditarCategoria = new System.Windows.Forms.ToolStripMenuItem();
             this.tsEliminarCategoria = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSalir = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.txbBusqueda = new System.Windows.Forms.TextBox();
             this.cmbFiltro = new System.Windows.Forms.ComboBox();
             this.lblFiltro = new System.Windows.Forms.Label();
-            this.tsmAyuda = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.msPrincipal.SuspendLayout();
@@ -67,7 +67,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(548, 324);
+            this.button1.Location = new System.Drawing.Point(548, 383);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -86,7 +86,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(629, 353);
+            this.button2.Location = new System.Drawing.Point(629, 412);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(548, 353);
+            this.button3.Location = new System.Drawing.Point(548, 412);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 3;
@@ -106,7 +106,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(629, 324);
+            this.button4.Location = new System.Drawing.Point(629, 383);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
@@ -223,7 +223,7 @@
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(545, 131);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(168, 187);
+            this.pbxArticulo.Size = new System.Drawing.Size(178, 246);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 24;
             this.pbxArticulo.TabStop = false;
@@ -256,7 +256,7 @@
             this.tsEditarMarca,
             this.tsEliminarMarca});
             this.tsMarca.Name = "tsMarca";
-            this.tsMarca.Size = new System.Drawing.Size(180, 22);
+            this.tsMarca.Size = new System.Drawing.Size(125, 22);
             this.tsMarca.Text = "Marca";
             // 
             // tlAgregarMarca
@@ -285,7 +285,7 @@
             this.tsEditarCategoria,
             this.tsEliminarCategoria});
             this.tsCategoria.Name = "tsCategoria";
-            this.tsCategoria.Size = new System.Drawing.Size(180, 22);
+            this.tsCategoria.Size = new System.Drawing.Size(125, 22);
             this.tsCategoria.Text = "Categoria";
             // 
             // tsAgregarCategoria
@@ -309,9 +309,15 @@
             // tsSalir
             // 
             this.tsSalir.Name = "tsSalir";
-            this.tsSalir.Size = new System.Drawing.Size(180, 22);
+            this.tsSalir.Size = new System.Drawing.Size(125, 22);
             this.tsSalir.Text = "Salir";
             this.tsSalir.Click += new System.EventHandler(this.tsSalir_Click);
+            // 
+            // tsmAyuda
+            // 
+            this.tsmAyuda.Name = "tsmAyuda";
+            this.tsmAyuda.Size = new System.Drawing.Size(53, 20);
+            this.tsmAyuda.Text = "Ayuda";
             // 
             // txbBusqueda
             // 
@@ -319,6 +325,7 @@
             this.txbBusqueda.Name = "txbBusqueda";
             this.txbBusqueda.Size = new System.Drawing.Size(122, 20);
             this.txbBusqueda.TabIndex = 26;
+            this.txbBusqueda.TextChanged += new System.EventHandler(this.txbBusqueda_TextChanged);
             // 
             // cmbFiltro
             // 
@@ -336,12 +343,6 @@
             this.lblFiltro.Size = new System.Drawing.Size(38, 13);
             this.lblFiltro.TabIndex = 28;
             this.lblFiltro.Text = "Filtrar :";
-            // 
-            // tsmAyuda
-            // 
-            this.tsmAyuda.Name = "tsmAyuda";
-            this.tsmAyuda.Size = new System.Drawing.Size(53, 20);
-            this.tsmAyuda.Text = "Ayuda";
             // 
             // FrmPrincipal
             // 

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
+using Negocio;
 //using static TP_WinForm_Programacion3.Articulo;
 
 
@@ -92,6 +93,11 @@ namespace TP_WinForm_Programacion3
         {
             Detalles ventana = new Detalles();
             ventana.ShowDialog();
+        }
+
+        private void txbBusqueda_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

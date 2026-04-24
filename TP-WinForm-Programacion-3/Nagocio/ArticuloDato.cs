@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Dominio;
 
-namespace TP_WinForm_Programacion3
+namespace Negocio
 {
-    class ArticuloDato
+    public class ArticuloDato
     {
         public List<Articulo> listar()
         {
@@ -52,7 +52,6 @@ namespace TP_WinForm_Programacion3
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
 

@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Dominio/Dominio.csproj" Id="396ab163-f8a6-4a61-92c7-0a42cd160c63" />
+  <Project Path="Nagocio/Nagocio.csproj" Id="27594bd1-bc79-4342-b753-9c5ae387e433" />
   <Project Path="TP-WinForm-Programacion3/TP-WinForm-Programacion3.csproj" Id="62fae867-23bc-4f11-9bdd-fc40a2a11276" />
 </Solution>
