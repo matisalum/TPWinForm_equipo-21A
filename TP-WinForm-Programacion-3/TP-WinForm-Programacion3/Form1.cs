@@ -22,20 +22,6 @@ namespace TP_WinForm_Programacion3
             InitializeComponent();
         }
 
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
         private void btnAgregando_Click(object sender, EventArgs e)
         {
             MenuArticulos frm = new MenuArticulos();
@@ -61,6 +47,7 @@ namespace TP_WinForm_Programacion3
             ArticuloDato datos = new ArticuloDato();
             listaImgArticulo = datos.listar();
             dgvArticulos.DataSource = listaImgArticulo;
+            dgvArticulos.Columns[7].Visible = false;
             cargarImagen(listaImgArticulo[0].Imagen.Url);
 
 
@@ -93,6 +80,17 @@ namespace TP_WinForm_Programacion3
         private void tlAgregarMarca_Click(object sender, EventArgs e)
         {
             MenuMarca ventana = new MenuMarca();
+            ventana.ShowDialog();
+        }
+
+        private void tsSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnDetalles_Click(object sender, EventArgs e)
+        {
+            Detalles ventana = new Detalles();
             ventana.ShowDialog();
         }
     }

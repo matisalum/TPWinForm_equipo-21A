@@ -85,9 +85,9 @@
             // 
             this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtDescripcion.HideSelection = false;
-            this.txtDescripcion.Location = new System.Drawing.Point(102, 84);
+            this.txtDescripcion.Location = new System.Drawing.Point(28, 110);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(197, 78);
+            this.txtDescripcion.Size = new System.Drawing.Size(262, 150);
             this.txtDescripcion.TabIndex = 14;
             this.txtDescripcion.UseCompatibleStateImageBehavior = false;
             // 
