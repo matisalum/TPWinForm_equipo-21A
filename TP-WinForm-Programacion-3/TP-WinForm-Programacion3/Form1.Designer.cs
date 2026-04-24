@@ -49,8 +49,20 @@
             this.button11 = new System.Windows.Forms.Button();
             this.dgvArticulos = new System.Windows.Forms.DataGridView();
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
+            this.msPrincipal = new System.Windows.Forms.MenuStrip();
+            this.tsGestion = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsMarca = new System.Windows.Forms.ToolStripMenuItem();
+            this.tlAgregarMarca = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsEditarMarca = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsEliminarMarca = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsAgregarCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsEditarCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsEliminarCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsSalir = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
+            this.msPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -65,7 +77,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(134, 27);
+            this.textBox1.Location = new System.Drawing.Point(217, 36);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(227, 38);
             this.textBox1.TabIndex = 1;
@@ -160,7 +172,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 99);
+            this.label1.Location = new System.Drawing.Point(74, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 12;
@@ -169,7 +181,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(74, 124);
+            this.label5.Location = new System.Drawing.Point(74, 143);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(451, 13);
             this.label5.TabIndex = 16;
@@ -218,7 +230,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(165, 99);
+            this.label7.Location = new System.Drawing.Point(161, 130);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(46, 13);
             this.label7.TabIndex = 21;
@@ -226,7 +238,7 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(217, 98);
+            this.button11.Location = new System.Drawing.Point(217, 125);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 22;
@@ -241,22 +253,105 @@
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.ReadOnly = true;
             this.dgvArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvArticulos.Size = new System.Drawing.Size(654, 78);
+            this.dgvArticulos.Size = new System.Drawing.Size(405, 149);
             this.dgvArticulos.TabIndex = 23;
             this.dgvArticulos.SelectionChanged += new System.EventHandler(this.dgvArticulos_SelectionChanged);
             // 
             // pbxArticulo
             // 
-            this.pbxArticulo.Location = new System.Drawing.Point(523, 243);
+            this.pbxArticulo.Location = new System.Drawing.Point(545, 159);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(311, 271);
+            this.pbxArticulo.Size = new System.Drawing.Size(168, 175);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 24;
             this.pbxArticulo.TabStop = false;
             // 
+            // msPrincipal
+            // 
+            this.msPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsGestion});
+            this.msPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.msPrincipal.Name = "msPrincipal";
+            this.msPrincipal.Size = new System.Drawing.Size(735, 24);
+            this.msPrincipal.TabIndex = 25;
+            this.msPrincipal.Text = "menuStrip1";
+            // 
+            // tsGestion
+            // 
+            this.tsGestion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsMarca,
+            this.tsCategoria,
+            this.tsSalir});
+            this.tsGestion.Name = "tsGestion";
+            this.tsGestion.Size = new System.Drawing.Size(59, 20);
+            this.tsGestion.Text = "Gestion";
+            // 
+            // tsMarca
+            // 
+            this.tsMarca.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tlAgregarMarca,
+            this.tsEditarMarca,
+            this.tsEliminarMarca});
+            this.tsMarca.Name = "tsMarca";
+            this.tsMarca.Size = new System.Drawing.Size(180, 22);
+            this.tsMarca.Text = "Marca";
+            // 
+            // tlAgregarMarca
+            // 
+            this.tlAgregarMarca.Name = "tlAgregarMarca";
+            this.tlAgregarMarca.Size = new System.Drawing.Size(180, 22);
+            this.tlAgregarMarca.Text = "Agregar";
+            this.tlAgregarMarca.Click += new System.EventHandler(this.tlAgregarMarca_Click);
+            // 
+            // tsEditarMarca
+            // 
+            this.tsEditarMarca.Name = "tsEditarMarca";
+            this.tsEditarMarca.Size = new System.Drawing.Size(180, 22);
+            this.tsEditarMarca.Text = "Editar";
+            // 
+            // tsEliminarMarca
+            // 
+            this.tsEliminarMarca.Name = "tsEliminarMarca";
+            this.tsEliminarMarca.Size = new System.Drawing.Size(180, 22);
+            this.tsEliminarMarca.Text = "Eliminar";
+            // 
+            // tsCategoria
+            // 
+            this.tsCategoria.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsAgregarCategoria,
+            this.tsEditarCategoria,
+            this.tsEliminarCategoria});
+            this.tsCategoria.Name = "tsCategoria";
+            this.tsCategoria.Size = new System.Drawing.Size(180, 22);
+            this.tsCategoria.Text = "Categoria";
+            // 
+            // tsAgregarCategoria
+            // 
+            this.tsAgregarCategoria.Name = "tsAgregarCategoria";
+            this.tsAgregarCategoria.Size = new System.Drawing.Size(180, 22);
+            this.tsAgregarCategoria.Text = "Agregar";
+            // 
+            // tsEditarCategoria
+            // 
+            this.tsEditarCategoria.Name = "tsEditarCategoria";
+            this.tsEditarCategoria.Size = new System.Drawing.Size(180, 22);
+            this.tsEditarCategoria.Text = "Editar";
+            // 
+            // tsEliminarCategoria
+            // 
+            this.tsEliminarCategoria.Name = "tsEliminarCategoria";
+            this.tsEliminarCategoria.Size = new System.Drawing.Size(180, 22);
+            this.tsEliminarCategoria.Text = "Eliminar";
+            // 
+            // tsSalir
+            // 
+            this.tsSalir.Name = "tsSalir";
+            this.tsSalir.Size = new System.Drawing.Size(180, 22);
+            this.tsSalir.Text = "Salir";
+            // 
             // FrmPrincipal
             // 
-            this.ClientSize = new System.Drawing.Size(901, 567);
+            this.ClientSize = new System.Drawing.Size(735, 480);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.dgvArticulos);
             this.Controls.Add(this.button11);
@@ -278,11 +373,16 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.msPrincipal);
+            this.MainMenuStrip = this.msPrincipal;
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "APP";
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
+            this.msPrincipal.ResumeLayout(false);
+            this.msPrincipal.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,6 +416,17 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.DataGridView dgvArticulos;
         private System.Windows.Forms.PictureBox pbxArticulo;
+        private System.Windows.Forms.MenuStrip msPrincipal;
+        private System.Windows.Forms.ToolStripMenuItem tsGestion;
+        private System.Windows.Forms.ToolStripMenuItem tsMarca;
+        private System.Windows.Forms.ToolStripMenuItem tlAgregarMarca;
+        private System.Windows.Forms.ToolStripMenuItem tsEditarMarca;
+        private System.Windows.Forms.ToolStripMenuItem tsEliminarMarca;
+        private System.Windows.Forms.ToolStripMenuItem tsCategoria;
+        private System.Windows.Forms.ToolStripMenuItem tsAgregarCategoria;
+        private System.Windows.Forms.ToolStripMenuItem tsEditarCategoria;
+        private System.Windows.Forms.ToolStripMenuItem tsEliminarCategoria;
+        private System.Windows.Forms.ToolStripMenuItem tsSalir;
     }
 }
 

@@ -89,6 +89,12 @@ namespace TP_WinForm_Programacion3
         {
 
         }
+
+        private void tlAgregarMarca_Click(object sender, EventArgs e)
+        {
+            MenuMarca ventana = new MenuMarca();
+            ventana.ShowDialog();
+        }
     }
 }
     

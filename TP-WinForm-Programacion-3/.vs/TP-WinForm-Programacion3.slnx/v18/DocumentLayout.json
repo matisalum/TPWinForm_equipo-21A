@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\",
+  "WorkspaceRootPath": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|c:\\users\\julii\\desktop\\repogit\\tp-winform-programacion-3\\tp-winform-programacion-3\\tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\articulodato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\articulodato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|c:\\users\\franc\\desktop\\utn 2026\\progra 3\\tp\\tp-winform-programacion-3\\tp-winform-programacion-3\\tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\articulodato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\articulodato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396AB163-F8A6-4A61-92C7-0A42CD160C63}|Dominio\\Dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
               "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\Form1.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs [Design]",
               "RelativeToolTip": "TP-WinForm-Programacion3\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T22:19:23.639Z",
@@ -59,63 +47,27 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArticuloDato.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\ArticuloDato.cs",
-              "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\ArticuloDato.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\ArticuloDato.cs",
-              "RelativeToolTip": "TP-WinForm-Programacion3\\ArticuloDato.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T19:22:54.504Z"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Articulos.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Articulos.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulos.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Articulos.cs",
-              "RelativeToolTip": "Dominio\\Articulos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Title": "ArticuloDato.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\ArticuloDato.cs",
+              "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\ArticuloDato.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\ArticuloDato.cs",
+              "RelativeToolTip": "TP-WinForm-Programacion3\\ArticuloDato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:11:30.238Z"
+              "WhenOpened": "2026-04-24T00:07:06.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
-              "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\Form1.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
-              "RelativeToolTip": "TP-WinForm-Programacion3\\Form1.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAEwFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:01:14.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "Dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Imagen.cs",
-              "RelativeToolTip": "Dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:12:24.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Program.cs",
               "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\Program.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Program.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Program.cs",
               "RelativeToolTip": "TP-WinForm-Programacion3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,26 +76,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Categoria.cs",
-              "RelativeDocumentMoniker": "Dominio\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Categoria.cs",
-              "RelativeToolTip": "Dominio\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:12:13.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Marca.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Marca.cs",
               "RelativeDocumentMoniker": "Dominio\\Marca.cs",
-              "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\Dominio\\Marca.cs",
               "RelativeToolTip": "Dominio\\Marca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T23:12:31.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
+              "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\Form1.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\UTN 2026\\Progra 3\\Tp\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
+              "RelativeToolTip": "TP-WinForm-Programacion3\\Form1.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwF8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:01:14.267Z",
+              "EditorCaption": ""
             }
           ]
         }

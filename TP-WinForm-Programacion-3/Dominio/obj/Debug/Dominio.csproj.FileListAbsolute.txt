@@ -10,3 +10,9 @@ C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion
 C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.dll
 C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.pdb
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\bin\Debug\Dominio.dll
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.dll
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Dominio\obj\Debug\Dominio.pdb
