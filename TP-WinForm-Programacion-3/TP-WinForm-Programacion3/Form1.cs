@@ -46,7 +46,7 @@ namespace TP_WinForm_Programacion3
         {
 
             ArticuloDato datos = new ArticuloDato();
-            listaImgArticulo = datos.listar();
+            listaImgArticulo = datos.listar(); 
             dgvArticulos.DataSource = listaImgArticulo;
             dgvArticulos.Columns[7].Visible = false;
             cargarImagen(listaImgArticulo[0].Imagen.Url);
@@ -67,7 +67,7 @@ namespace TP_WinForm_Programacion3
             {
                 pbxArticulo.Load(imagen);
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 pbxArticulo.Load("https://media.istockphoto.com/id/1980276924/es/vector/sin-elemento-gr%C3%A1fico-en-miniatura-de-la-foto-no-se-ha-encontrado-ninguna-imagen-o-est%C3%A1.jpg?s=612x612&w=0&k=20&c=artWlQoi5R1edWQBv9LfzeLXupOcH_alZnMgvXdYkF4=");
             }

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoADatos.cs" />
     <Compile Include="ArticuloDato.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -62,3 +62,6 @@ C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
