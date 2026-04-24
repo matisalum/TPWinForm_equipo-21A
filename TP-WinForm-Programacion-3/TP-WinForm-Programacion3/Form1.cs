@@ -97,7 +97,21 @@ namespace TP_WinForm_Programacion3
 
         private void txbBusqueda_TextChanged(object sender, EventArgs e)
         {
-            
+            List<Articulo> listaFiltrada = new List<Articulo>();
+            string filtro = txbBusqueda.Text.ToLower();
+
+            if(filtro != "")
+            {
+                listaFiltrada = listaImgArticulo.FindAll(x => x.Nombre.ToLower().Contains(filtro));
+
+            }
+            else
+            {
+                listaFiltrada = listaImgArticulo;
+            }
+            dgvArticulos.DataSource = null;
+            dgvArticulos.DataSource = listaFiltrada;
+
         }
     }
 }

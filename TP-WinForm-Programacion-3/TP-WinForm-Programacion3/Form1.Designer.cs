@@ -41,8 +41,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblLista_Articulos = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.dgvArticulos = new System.Windows.Forms.DataGridView();
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
             this.msPrincipal = new System.Windows.Forms.MenuStrip();
@@ -58,8 +56,6 @@
             this.tsSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.txbBusqueda = new System.Windows.Forms.TextBox();
-            this.cmbFiltro = new System.Windows.Forms.ComboBox();
-            this.lblFiltro = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.msPrincipal.SuspendLayout();
@@ -154,7 +150,7 @@
             // lblBuscar
             // 
             this.lblBuscar.AutoSize = true;
-            this.lblBuscar.Location = new System.Drawing.Point(333, 60);
+            this.lblBuscar.Location = new System.Drawing.Point(338, 64);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(81, 13);
             this.lblBuscar.TabIndex = 12;
@@ -165,10 +161,11 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 115);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(451, 13);
+            this.label5.Size = new System.Drawing.Size(526, 13);
             this.label5.TabIndex = 16;
             this.label5.Text = "---------------------------------------------------------------------------------" +
-    "-------------------------------------------------------------------";
+    "--------------------------------------------------------------------------------" +
+    "------------";
             // 
             // label2
             // 
@@ -189,24 +186,6 @@
             this.lblLista_Articulos.TabIndex = 20;
             this.lblLista_Articulos.Text = "Lista De Articulos";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(677, 80);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 13);
-            this.label7.TabIndex = 21;
-            this.label7.Text = "-------------";
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(336, 76);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "Buscar";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
             // dgvArticulos
             // 
             this.dgvArticulos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -223,7 +202,7 @@
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(545, 131);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(178, 246);
+            this.pbxArticulo.Size = new System.Drawing.Size(207, 246);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 24;
             this.pbxArticulo.TabStop = false;
@@ -235,7 +214,7 @@
             this.tsmAyuda});
             this.msPrincipal.Location = new System.Drawing.Point(0, 0);
             this.msPrincipal.Name = "msPrincipal";
-            this.msPrincipal.Size = new System.Drawing.Size(735, 24);
+            this.msPrincipal.Size = new System.Drawing.Size(764, 24);
             this.msPrincipal.TabIndex = 25;
             this.msPrincipal.Text = "menuStrip1";
             // 
@@ -321,39 +300,18 @@
             // 
             // txbBusqueda
             // 
-            this.txbBusqueda.Location = new System.Drawing.Point(417, 79);
+            this.txbBusqueda.Location = new System.Drawing.Point(341, 80);
             this.txbBusqueda.Name = "txbBusqueda";
-            this.txbBusqueda.Size = new System.Drawing.Size(122, 20);
+            this.txbBusqueda.Size = new System.Drawing.Size(198, 20);
             this.txbBusqueda.TabIndex = 26;
             this.txbBusqueda.TextChanged += new System.EventHandler(this.txbBusqueda_TextChanged);
             // 
-            // cmbFiltro
-            // 
-            this.cmbFiltro.FormattingEnabled = true;
-            this.cmbFiltro.Location = new System.Drawing.Point(548, 77);
-            this.cmbFiltro.Name = "cmbFiltro";
-            this.cmbFiltro.Size = new System.Drawing.Size(121, 21);
-            this.cmbFiltro.TabIndex = 27;
-            // 
-            // lblFiltro
-            // 
-            this.lblFiltro.AutoSize = true;
-            this.lblFiltro.Location = new System.Drawing.Point(545, 60);
-            this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(38, 13);
-            this.lblFiltro.TabIndex = 28;
-            this.lblFiltro.Text = "Filtrar :";
-            // 
             // FrmPrincipal
             // 
-            this.ClientSize = new System.Drawing.Size(735, 447);
-            this.Controls.Add(this.lblFiltro);
-            this.Controls.Add(this.cmbFiltro);
+            this.ClientSize = new System.Drawing.Size(764, 447);
             this.Controls.Add(this.txbBusqueda);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.dgvArticulos);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.lblLista_Articulos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
@@ -402,8 +360,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblLista_Articulos;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.DataGridView dgvArticulos;
         private System.Windows.Forms.PictureBox pbxArticulo;
         private System.Windows.Forms.MenuStrip msPrincipal;
@@ -418,8 +374,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsEliminarCategoria;
         private System.Windows.Forms.ToolStripMenuItem tsSalir;
         private System.Windows.Forms.TextBox txbBusqueda;
-        private System.Windows.Forms.ComboBox cmbFiltro;
-        private System.Windows.Forms.Label lblFiltro;
         private System.Windows.Forms.ToolStripMenuItem tsmAyuda;
     }
 }
