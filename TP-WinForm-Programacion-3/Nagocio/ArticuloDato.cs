@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Dominio;
-using Nagocio;
+using Negocio;
 
 namespace Negocio
 {
@@ -58,10 +58,41 @@ namespace Negocio
             }
 
         }
-       
+
+
+        public void agregar(Articulo nuevo)
+        {
+            AccesoADatos datos = new AccesoADatos();
+
+            try
+            {
+        
+                datos.setearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@codigo, @nombre, @desc, @idMarca, @idCat, @precio)");
+
+                datos.setearParametro("@codigo", nuevo.Codigo);
+                datos.setearParametro("@nombre", nuevo.Nombre);
+                datos.setearParametro("@desc", nuevo.Descripcion);
+                datos.setearParametro("@idMarca", nuevo.Marca.Id);
+                datos.setearParametro("@idCat", nuevo.Categoria.Id);
+                datos.setearParametro("@precio", nuevo.Precio);
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
 
 
     }
+
+
 }
 
 

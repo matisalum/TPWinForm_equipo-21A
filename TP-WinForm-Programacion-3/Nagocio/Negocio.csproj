@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="AccesoADatos.cs" />
     <Compile Include="ArticuloDato.cs" />
+    <Compile Include="CategoriaDato.cs" />
+    <Compile Include="MarcaDato.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

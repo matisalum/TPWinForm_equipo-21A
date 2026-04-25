@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using Negocio;
 
-
-namespace Nagocio
+namespace Negocio
 {
     public class AccesoADatos
     {
@@ -59,7 +59,26 @@ namespace Nagocio
             }
             conexion.Close();
         }
-        
+
+        public void ejecutarAccion()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void setearParametro(string nombre, object valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
+        }
+
 
     }
 }

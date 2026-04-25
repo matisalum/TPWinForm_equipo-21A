@@ -40,9 +40,9 @@
             this.txtDescripcion = new System.Windows.Forms.ListView();
             this.btnAgregado = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.cmbMarca = new System.Windows.Forms.ComboBox();
-            this.cmbCategoria = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cboMarca = new System.Windows.Forms.ComboBox();
+            this.cboCategoria = new System.Windows.Forms.ComboBox();
+            this.txtURLImagen = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbCargaDeDatos = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -157,6 +157,7 @@
             this.btnAgregado.TabIndex = 15;
             this.btnAgregado.Text = "Agregar ";
             this.btnAgregado.UseVisualStyleBackColor = true;
+            this.btnAgregado.Click += new System.EventHandler(this.btnAgregado_Click);
             // 
             // btnCancelar
             // 
@@ -170,28 +171,28 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // cmbMarca
+            // cboMarca
             // 
-            this.cmbMarca.FormattingEnabled = true;
-            this.cmbMarca.Location = new System.Drawing.Point(138, 154);
-            this.cmbMarca.Name = "cmbMarca";
-            this.cmbMarca.Size = new System.Drawing.Size(245, 21);
-            this.cmbMarca.TabIndex = 17;
+            this.cboMarca.FormattingEnabled = true;
+            this.cboMarca.Location = new System.Drawing.Point(138, 154);
+            this.cboMarca.Name = "cboMarca";
+            this.cboMarca.Size = new System.Drawing.Size(245, 21);
+            this.cboMarca.TabIndex = 17;
             // 
-            // cmbCategoria
+            // cboCategoria
             // 
-            this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(138, 181);
-            this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(245, 21);
-            this.cmbCategoria.TabIndex = 18;
+            this.cboCategoria.FormattingEnabled = true;
+            this.cboCategoria.Location = new System.Drawing.Point(138, 181);
+            this.cboCategoria.Name = "cboCategoria";
+            this.cboCategoria.Size = new System.Drawing.Size(245, 21);
+            this.cboCategoria.TabIndex = 18;
             // 
-            // textBox1
+            // txtURLImagen
             // 
-            this.textBox1.Location = new System.Drawing.Point(138, 249);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(245, 20);
-            this.textBox1.TabIndex = 19;
+            this.txtURLImagen.Location = new System.Drawing.Point(138, 249);
+            this.txtURLImagen.Name = "txtURLImagen";
+            this.txtURLImagen.Size = new System.Drawing.Size(245, 20);
+            this.txtURLImagen.TabIndex = 19;
             // 
             // label1
             // 
@@ -220,9 +221,9 @@
             this.ClientSize = new System.Drawing.Size(449, 545);
             this.Controls.Add(this.txtbCargaDeDatos);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.cmbCategoria);
-            this.Controls.Add(this.cmbMarca);
+            this.Controls.Add(this.txtURLImagen);
+            this.Controls.Add(this.cboCategoria);
+            this.Controls.Add(this.cboMarca);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAgregado);
             this.Controls.Add(this.txtDescripcion);
@@ -238,6 +239,7 @@
             this.Name = "MenuArticulos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Articulos";
+            this.Load += new System.EventHandler(this.MenuArticulos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,9 +258,9 @@
         private System.Windows.Forms.ListView txtDescripcion;
         private System.Windows.Forms.Button btnAgregado;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.ComboBox cmbMarca;
-        private System.Windows.Forms.ComboBox cmbCategoria;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cboMarca;
+        private System.Windows.Forms.ComboBox cboCategoria;
+        private System.Windows.Forms.TextBox txtURLImagen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtbCargaDeDatos;
     }
