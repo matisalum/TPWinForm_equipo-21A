@@ -69,5 +69,24 @@ namespace TP_WinForm_Programacion3
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void txtURLImagen_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txtURLImagen.Text);
+        }
+
+        private void cargarImagen(string imagen)
+        {
+
+            try
+            {
+                pbxArticulo.Load(imagen);
+            }
+            catch (Exception)
+            {
+                pbxArticulo.Load("https://media.istockphoto.com/id/1980276924/es/vector/sin-elemento-gr%C3%A1fico-en-miniatura-de-la-foto-no-se-ha-encontrado-ninguna-imagen-o-est%C3%A1.jpg?s=612x612&w=0&k=20&c=artWlQoi5R1edWQBv9LfzeLXupOcH_alZnMgvXdYkF4=");
+            }
+        }
+
     }
 }

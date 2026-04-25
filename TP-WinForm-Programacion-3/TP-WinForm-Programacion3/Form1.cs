@@ -49,20 +49,23 @@ namespace TP_WinForm_Programacion3
             dgvArticulos.Columns[7].Visible = false;
         }
 
+        private List<Articulo> listaImgArticulo;
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
+
             cargar();
         }
 
-        private List<Articulo> listaImgArticulo;
         private void cargar()
-        {
-            ArticuloDato datos = new ArticuloDato();
-            listaImgArticulo = datos.listar();
-            dgvArticulos.DataSource = listaImgArticulo;
-            OcultarColumna();
-            cargarImagen(listaImgArticulo[0].Imagen.Url);
-        }
+        
+            {
+
+                ArticuloDato datos = new ArticuloDato();
+                listaImgArticulo = datos.listar();
+                dgvArticulos.DataSource = listaImgArticulo;
+                OcultarColumna();
+                cargarImagen(listaImgArticulo[0].Imagen.Url);
+            }
         
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
