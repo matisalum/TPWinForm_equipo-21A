@@ -20,7 +20,18 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("Select A.Id, codigo, nombre,A.descripcion , precio, M.descripcion Marca,C.descripcion Categoria, ImagenUrl From ARTICULOS A , IMAGENES I , MARCAS M , CATEGORIAS C Where A.Id = I.Id And A.IdMarca = M.id And A.IdCategoria = C.Id");
+                /*datos.setearConsulta("Select A.Id, codigo, nombre,A.descripcion ," +
+                    " precio, M.descripcion Marca,C.descripcion Categoria," +
+                    " ImagenUrl From ARTICULOS A , IMAGENES I , MARCAS M ," +
+                    " CATEGORIAS C Where A.Id = I.Id And A.IdMarca = M.id And A.IdCategoria = C.Id");*/
+
+                datos.setearConsulta("Select A.Id, codigo, nombre, A.descripcion, " +
+                    "precio, M.descripcion Marca, C.descripcion Categoria," +
+                    "ImagenUrl "+
+                    "FROM ARTICULOS A " +
+                    "LEFT JOIN IMAGENES I ON A.Id = I.Id, MARCAS M, CATEGORIAS C " +
+                    "WHERE A.IdMarca = M.id AND A.IdCategoria = C.Id");
+
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read()){
@@ -35,7 +46,9 @@ namespace Negocio
 
                    // if(AuthenticationSchemeSelector.isDBNull(lector.getOrdinal("imagenurl")))
                     arti.Imagen = new Imagen();
-                    arti.Imagen.Url = (string)datos.Lector["imagenurl"];
+
+                    if (!(datos.Lector["imagenurl"] is DBNull))
+                        arti.Imagen.Url = (string)datos.Lector["imagenurl"];
                     arti.Marca = new Marca();
                     arti.Marca.Descripcion = (string)datos.Lector["marca"];
                     arti.Categoria = new Categoria();
@@ -51,9 +64,9 @@ namespace Negocio
             }
             catch (Exception ex)
             {
-
                 throw ex;
-            }finally
+            }
+            finally
             {
 
                 datos.cerrarConexion();
