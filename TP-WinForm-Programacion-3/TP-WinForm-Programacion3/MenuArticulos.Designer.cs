@@ -37,7 +37,6 @@
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.ListView();
             this.btnAgregado = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.cboMarca = new System.Windows.Forms.ComboBox();
@@ -45,6 +44,7 @@
             this.txtURLImagen = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbCargaDeDatos = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -137,16 +137,6 @@
             this.lblDescripcion.TabIndex = 12;
             this.lblDescripcion.Text = "Descripcion : ";
             // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtDescripcion.HideSelection = false;
-            this.txtDescripcion.Location = new System.Drawing.Point(32, 321);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(387, 142);
-            this.txtDescripcion.TabIndex = 13;
-            this.txtDescripcion.UseCompatibleStateImageBehavior = false;
-            // 
             // btnAgregado
             // 
             this.btnAgregado.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -173,6 +163,7 @@
             // 
             // cboMarca
             // 
+            this.cboMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMarca.FormattingEnabled = true;
             this.cboMarca.Location = new System.Drawing.Point(138, 154);
             this.cboMarca.Name = "cboMarca";
@@ -181,6 +172,7 @@
             // 
             // cboCategoria
             // 
+            this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategoria.FormattingEnabled = true;
             this.cboCategoria.Location = new System.Drawing.Point(138, 181);
             this.cboCategoria.Name = "cboCategoria";
@@ -213,6 +205,16 @@
             this.txtbCargaDeDatos.Size = new System.Drawing.Size(227, 38);
             this.txtbCargaDeDatos.TabIndex = 21;
             this.txtbCargaDeDatos.Text = "Carga de datos";
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtDescripcion.HideSelection = false;
+            this.txtDescripcion.Location = new System.Drawing.Point(32, 321);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(387, 142);
+            this.txtDescripcion.TabIndex = 13;
+            this.txtDescripcion.UseCompatibleStateImageBehavior = false;
             // 
             // MenuArticulos
             // 
@@ -255,7 +257,6 @@
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.Label lblDescripcion;
-        private System.Windows.Forms.ListView txtDescripcion;
         private System.Windows.Forms.Button btnAgregado;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ComboBox cboMarca;
@@ -263,5 +264,6 @@
         private System.Windows.Forms.TextBox txtURLImagen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtbCargaDeDatos;
+        private System.Windows.Forms.ListView txtDescripcion;
     }
 }
