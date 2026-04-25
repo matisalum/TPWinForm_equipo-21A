@@ -27,7 +27,10 @@ namespace TP_WinForm_Programacion3
         {
             MenuArticulos frm = new MenuArticulos();
             frm.ShowDialog();
+            cargar();
+
         }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -50,12 +53,20 @@ namespace TP_WinForm_Programacion3
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
 
-            ArticuloDato datos = new ArticuloDato();
-            listaImgArticulo = datos.listar(); 
-            dgvArticulos.DataSource = listaImgArticulo;
-            OcultarColumna();
-            cargarImagen(listaImgArticulo[0].Imagen.Url);
+            cargar();
         }
+
+        private void cargar()
+        
+            {
+
+                ArticuloDato datos = new ArticuloDato();
+                listaImgArticulo = datos.listar();
+                dgvArticulos.DataSource = listaImgArticulo;
+                OcultarColumna();
+                cargarImagen(listaImgArticulo[0].Imagen.Url);
+            }
+        
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
@@ -118,6 +129,11 @@ namespace TP_WinForm_Programacion3
             dgvArticulos.DataSource = null;
             dgvArticulos.DataSource = listaFiltrada;
             OcultarColumna();
+
+        }
+
+        private void dgvArticulos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

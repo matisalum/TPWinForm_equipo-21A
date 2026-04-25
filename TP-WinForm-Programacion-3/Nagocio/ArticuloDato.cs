@@ -32,6 +32,8 @@ namespace Negocio
                     arti.Nombre = (string)datos.Lector["nombre"];
                     arti.Descripcion = (string)datos.Lector["descripcion"];
                     arti.Precio = (decimal)datos.Lector["precio"];
+
+                   // if(AuthenticationSchemeSelector.isDBNull(lector.getOrdinal("imagenurl")))
                     arti.Imagen = new Imagen();
                     arti.Imagen.Url = (string)datos.Lector["imagenurl"];
                     arti.Marca = new Marca();
