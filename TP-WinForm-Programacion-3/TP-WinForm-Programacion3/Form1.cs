@@ -41,6 +41,11 @@ namespace TP_WinForm_Programacion3
             ventana.ShowDialog();
         }
 
+        private void OcultarColumna()
+        {
+            dgvArticulos.Columns[7].Visible = false;
+        }
+
         private List<Articulo> listaImgArticulo;
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
@@ -48,10 +53,8 @@ namespace TP_WinForm_Programacion3
             ArticuloDato datos = new ArticuloDato();
             listaImgArticulo = datos.listar(); 
             dgvArticulos.DataSource = listaImgArticulo;
-            dgvArticulos.Columns[7].Visible = false;
+            OcultarColumna();
             cargarImagen(listaImgArticulo[0].Imagen.Url);
-
-
         }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
@@ -102,8 +105,11 @@ namespace TP_WinForm_Programacion3
 
             if(filtro != "")
             {
-                listaFiltrada = listaImgArticulo.FindAll(x => x.Nombre.ToLower().Contains(filtro));
-
+                listaFiltrada = listaImgArticulo.FindAll(x =>
+                x.Nombre.ToLower().Contains(filtro) ||
+                x.Marca.Descripcion.ToLower().Contains(filtro) ||
+                x.Categoria.Descripcion.ToLower().Contains(filtro) ||
+                x.Codigo.ToLower().Contains(filtro));
             }
             else
             {
@@ -111,6 +117,7 @@ namespace TP_WinForm_Programacion3
             }
             dgvArticulos.DataSource = null;
             dgvArticulos.DataSource = listaFiltrada;
+            OcultarColumna();
 
         }
     }
