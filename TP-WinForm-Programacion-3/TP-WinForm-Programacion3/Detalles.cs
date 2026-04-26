@@ -47,21 +47,28 @@ namespace TP_WinForm_Programacion3
 
         private void cargarImagen()
         {
+            
+            string urlPlaceholder = "https://agroworldspain.com/img/noimage.png";
+
             if (listaImagenes != null && listaImagenes.Count > 0)
             {
-                // Usamos un try-catch por si la URL está rota
                 try
                 {
                     pbxArticulo.Load(listaImagenes[indiceImagen].Url);
                 }
-                catch
+                catch (Exception)
                 {
-                    pbxArticulo.Load("https://viviendoentresunglas.com/wp-content/uploads/2023/05/placeholder.png");
+                    
+                    pbxArticulo.Load(urlPlaceholder);
                 }
+            }
+            else
+            {
+                pbxArticulo.Load(urlPlaceholder);
             }
         }
 
-       
+
         private void btnSiguiente_Click_1(object sender, EventArgs e)
         {
             if (indiceImagen < listaImagenes.Count - 1)
