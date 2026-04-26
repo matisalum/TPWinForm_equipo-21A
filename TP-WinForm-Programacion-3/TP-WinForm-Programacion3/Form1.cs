@@ -142,7 +142,26 @@ namespace TP_WinForm_Programacion3
 
         }
 
-        
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            ArticuloDato arti = new ArticuloDato();
+            Articulo seleccionado;
+            try
+            {
+                DialogResult respuesta = MessageBox.Show("¿De Verdad Querés Elimarlo?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (respuesta == DialogResult.Yes)
+                {
+                    seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+                    arti.eliminar(seleccionado.Id);
+                    cargar();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }
     
