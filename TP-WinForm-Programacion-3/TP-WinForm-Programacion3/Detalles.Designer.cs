@@ -40,9 +40,11 @@
             this.lblPrecio = new System.Windows.Forms.Label();
             this.txbDescripcion = new System.Windows.Forms.TextBox();
             this.lblDescripcion = new System.Windows.Forms.Label();
-            this.ptbImagen = new System.Windows.Forms.PictureBox();
             this.btnAceptar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbImagen)).BeginInit();
+            this.pbxArticulo = new System.Windows.Forms.PictureBox();
+            this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnAnterior = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -147,15 +149,6 @@
             this.lblDescripcion.TabIndex = 10;
             this.lblDescripcion.Text = "Descripcion :";
             // 
-            // ptbImagen
-            // 
-            this.ptbImagen.Location = new System.Drawing.Point(294, 36);
-            this.ptbImagen.Name = "ptbImagen";
-            this.ptbImagen.Size = new System.Drawing.Size(244, 270);
-            this.ptbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptbImagen.TabIndex = 12;
-            this.ptbImagen.TabStop = false;
-            // 
             // btnAceptar
             // 
             this.btnAceptar.Location = new System.Drawing.Point(463, 327);
@@ -166,13 +159,44 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
+            // pbxArticulo
+            // 
+            this.pbxArticulo.Location = new System.Drawing.Point(330, 128);
+            this.pbxArticulo.Name = "pbxArticulo";
+            this.pbxArticulo.Size = new System.Drawing.Size(153, 142);
+            this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxArticulo.TabIndex = 14;
+            this.pbxArticulo.TabStop = false;
+            // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.Location = new System.Drawing.Point(408, 281);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente.TabIndex = 15;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click_1);
+            // 
+            // btnAnterior
+            // 
+            this.btnAnterior.Location = new System.Drawing.Point(327, 281);
+            this.btnAnterior.Name = "btnAnterior";
+            this.btnAnterior.Size = new System.Drawing.Size(75, 23);
+            this.btnAnterior.TabIndex = 16;
+            this.btnAnterior.Text = "Anterior";
+            this.btnAnterior.UseVisualStyleBackColor = true;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click_1);
+            // 
             // Detalles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(558, 374);
+            this.Controls.Add(this.btnAnterior);
+            this.Controls.Add(this.btnSiguiente);
+            this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.ptbImagen);
             this.Controls.Add(this.txbDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.txbPrecio);
@@ -189,7 +213,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalles";
             this.Load += new System.EventHandler(this.Detalles_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.ptbImagen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,7 +233,9 @@
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.TextBox txbDescripcion;
         private System.Windows.Forms.Label lblDescripcion;
-        private System.Windows.Forms.PictureBox ptbImagen;
         private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.PictureBox pbxArticulo;
+        private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Button btnAnterior;
     }
 }

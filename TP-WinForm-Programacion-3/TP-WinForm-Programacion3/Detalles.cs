@@ -1,4 +1,5 @@
 ﻿using Dominio;
+using Negocio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,28 +15,20 @@ namespace TP_WinForm_Programacion3
     public partial class Detalles : Form
     {
         private Articulo articulo;
+        private List<Imagen> listaImagenes;
+        private int indiceImagen = 0;
 
-        public Detalles(Articulo art)
+        public Detalles(Articulo seleccionado)
         {
             InitializeComponent();
-            articulo = art;
+            this.articulo = seleccionado;
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-        private void cargarImagen(string imagen)
-        {
-            try
-            {
-                ptbImagen.Load(imagen);
-            }
-            catch (Exception)
-            {
-                ptbImagen.Load("https://media.istockphoto.com/id/1980276924/es/vector/sin-elemento-gr%C3%A1fico-en-miniatura-de-la-foto-no-se-ha-encontrado-ninguna-imagen-o-est%C3%A1.jpg?s=612x612&w=0&k=20&c=artWlQoi5R1edWQBv9LfzeLXupOcH_alZnMgvXdYkF4=");
-            }
-        }
+       
 
         private void Detalles_Load(object sender, EventArgs e)
         {
@@ -45,7 +38,46 @@ namespace TP_WinForm_Programacion3
             txbCategoria.Text = articulo.Categoria.ToString();
             txbPrecio.Text = "$ " + articulo.Precio.ToString();
             txbDescripcion.Text = articulo.Descripcion.ToString();
-            cargarImagen(articulo.Imagen.Url);
+
+            ArticuloDato negocio = new ArticuloDato();
+            listaImagenes = negocio.listarImagenes(articulo.Id);
+
+            cargarImagen();
+        }
+
+        private void cargarImagen()
+        {
+            if (listaImagenes != null && listaImagenes.Count > 0)
+            {
+                // Usamos un try-catch por si la URL está rota
+                try
+                {
+                    pbxArticulo.Load(listaImagenes[indiceImagen].Url);
+                }
+                catch
+                {
+                    pbxArticulo.Load("https://viviendoentresunglas.com/wp-content/uploads/2023/05/placeholder.png");
+                }
+            }
+        }
+
+       
+        private void btnSiguiente_Click_1(object sender, EventArgs e)
+        {
+            if (indiceImagen < listaImagenes.Count - 1)
+            {
+                indiceImagen++;
+                cargarImagen();
+            }
+        }
+
+        private void btnAnterior_Click_1(object sender, EventArgs e)
+        {
+            if (indiceImagen > 0)
+            {
+                indiceImagen--;
+                cargarImagen();
+            }
         }
     }
 }

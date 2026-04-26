@@ -41,11 +41,13 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.cboMarca = new System.Windows.Forms.ComboBox();
             this.cboCategoria = new System.Windows.Forms.ComboBox();
-            this.txtURLImagen = new System.Windows.Forms.TextBox();
+            this.txtUrlImagen = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbCargaDeDatos = new System.Windows.Forms.TextBox();
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.btnAgregarImagen = new System.Windows.Forms.Button();
+            this.lbUrls = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -170,13 +172,13 @@
             this.cboCategoria.Size = new System.Drawing.Size(167, 21);
             this.cboCategoria.TabIndex = 3;
             // 
-            // txtURLImagen
+            // txtUrlImagen
             // 
-            this.txtURLImagen.Location = new System.Drawing.Point(138, 273);
-            this.txtURLImagen.Name = "txtURLImagen";
-            this.txtURLImagen.Size = new System.Drawing.Size(167, 20);
-            this.txtURLImagen.TabIndex = 6;
-            this.txtURLImagen.Leave += new System.EventHandler(this.txtURLImagen_Leave);
+            this.txtUrlImagen.Location = new System.Drawing.Point(138, 273);
+            this.txtUrlImagen.Name = "txtUrlImagen";
+            this.txtUrlImagen.Size = new System.Drawing.Size(167, 20);
+            this.txtUrlImagen.TabIndex = 6;
+            this.txtUrlImagen.Leave += new System.EventHandler(this.txtURLImagen_Leave);
             // 
             // label1
             // 
@@ -199,9 +201,9 @@
             // 
             // pbxArticulo
             // 
-            this.pbxArticulo.Location = new System.Drawing.Point(336, 75);
+            this.pbxArticulo.Location = new System.Drawing.Point(440, 2);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(283, 289);
+            this.pbxArticulo.Size = new System.Drawing.Size(238, 218);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 22;
             this.pbxArticulo.TabStop = false;
@@ -213,16 +215,37 @@
             this.txtDescripcion.Size = new System.Drawing.Size(167, 20);
             this.txtDescripcion.TabIndex = 5;
             // 
+            // btnAgregarImagen
+            // 
+            this.btnAgregarImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarImagen.Location = new System.Drawing.Point(311, 273);
+            this.btnAgregarImagen.Name = "btnAgregarImagen";
+            this.btnAgregarImagen.Size = new System.Drawing.Size(37, 20);
+            this.btnAgregarImagen.TabIndex = 23;
+            this.btnAgregarImagen.Text = "+";
+            this.btnAgregarImagen.UseVisualStyleBackColor = true;
+            this.btnAgregarImagen.Click += new System.EventHandler(this.btnAgregarImagen_Click);
+            // 
+            // lbUrls
+            // 
+            this.lbUrls.FormattingEnabled = true;
+            this.lbUrls.Location = new System.Drawing.Point(354, 273);
+            this.lbUrls.Name = "lbUrls";
+            this.lbUrls.Size = new System.Drawing.Size(120, 95);
+            this.lbUrls.TabIndex = 24;
+            // 
             // MenuArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 420);
+            this.Controls.Add(this.lbUrls);
+            this.Controls.Add(this.btnAgregarImagen);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.txtbCargaDeDatos);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtURLImagen);
+            this.Controls.Add(this.txtUrlImagen);
             this.Controls.Add(this.cboCategoria);
             this.Controls.Add(this.cboMarca);
             this.Controls.Add(this.btnCancelar);
@@ -262,10 +285,12 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ComboBox cboMarca;
         private System.Windows.Forms.ComboBox cboCategoria;
-        private System.Windows.Forms.TextBox txtURLImagen;
+        private System.Windows.Forms.TextBox txtUrlImagen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtbCargaDeDatos;
         private System.Windows.Forms.PictureBox pbxArticulo;
         private System.Windows.Forms.TextBox txtDescripcion;
+        private System.Windows.Forms.Button btnAgregarImagen;
+        private System.Windows.Forms.ListBox lbUrls;
     }
 }

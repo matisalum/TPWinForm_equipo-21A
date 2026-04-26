@@ -14,6 +14,7 @@ namespace TP_WinForm_Programacion3
 {
     public partial class MenuArticulos : Form
     {
+        private List<Imagen> listaImagenesTemp = new List<Imagen>();
         private Articulo articulo = null;
 
         public MenuArticulos()
@@ -34,38 +35,50 @@ namespace TP_WinForm_Programacion3
 
         private void btnAgregado_Click(object sender, EventArgs e)
         {
-             
-           // Articulo arti = new Articulo();
             ArticuloDato nego = new ArticuloDato();
 
             try
             {
                 if (articulo == null)
-                
                     articulo = new Articulo();
-                    articulo.Codigo = txtCodigo.Text;
-                    articulo.Nombre = txtNombre.Text;
-                    articulo.Marca = (Marca)cboMarca.SelectedItem;
-                    articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
-                    articulo.Precio = decimal.Parse(txtPrecio.Text);
-                    Imagen img = new Imagen();
-                    img.Url = txtURLImagen.Text;
-                    articulo.Imagen = img;
-                    articulo.Descripcion = txtDescripcion.Text;
-                
 
-                if (articulo.Id != 0)
+                // 1. Cargamos los datos básicos
+                articulo.Codigo = txtCodigo.Text;
+                articulo.Nombre = txtNombre.Text;
+                articulo.Descripcion = txtDescripcion.Text;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
+                articulo.Marca = (Marca)cboMarca.SelectedItem;
+                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+
+                // 2. Lógica de Imágenes
+                if (articulo.Id == 0)
                 {
-                    nego.modificar(articulo);
-                    MessageBox.Show("Modificado Correctamente");
-                }
-                else
-                {
+                    // SI ES NUEVO: 
+                    // Usamos la lista que fuimos llenando con el botón "+"
+                    articulo.Imagenes = listaImagenesTemp;
+
+                    // Opcional: Si el usuario pegó algo en el cuadro de texto pero se olvidó 
+                    // de apretar el "+", lo agregamos acá para que no se pierda esa última URL
+                    if (!string.IsNullOrEmpty(txtUrlImagen.Text))
+                    {
+                        Imagen ultimaImg = new Imagen { Url = txtUrlImagen.Text };
+                        articulo.Imagenes.Add(ultimaImg);
+                    }
 
                     nego.agregar(articulo);
                     MessageBox.Show("Agregado Correctamente");
                 }
+                else
+                {
+                    // SI ES MODIFICACIÓN:
+                    // Por ahora mantenemos tu lógica (o podrías adaptar modificar luego)
+                    Imagen img = new Imagen();
+                    img.Url = txtUrlImagen.Text;
+                    articulo.Imagen = img;
 
+                    nego.modificar(articulo);
+                    MessageBox.Show("Modificado Correctamente");
+                }
 
                 Close();
             }
@@ -95,7 +108,7 @@ namespace TP_WinForm_Programacion3
                     txtNombre.Text = articulo.Nombre;
                     txtPrecio.Text = articulo.Precio.ToString(); ;
                     txtDescripcion.Text = articulo.Descripcion;
-                    txtURLImagen.Text = articulo.Imagen.Url;
+                    txtUrlImagen.Text = articulo.Imagen.Url;
                     cargarImagen(articulo.Imagen.Url);
                     cboMarca.SelectedValue = articulo.Marca.Id;
                     cboCategoria.SelectedValue = articulo.Categoria.Id;
@@ -111,7 +124,7 @@ namespace TP_WinForm_Programacion3
 
         private void txtURLImagen_Leave(object sender, EventArgs e)
         {
-            cargarImagen(txtURLImagen.Text);
+            cargarImagen(txtUrlImagen.Text);
         }
 
         private void cargarImagen(string imagen)
@@ -127,5 +140,26 @@ namespace TP_WinForm_Programacion3
             }
         }
 
+        private void btnAgregarImagen_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtUrlImagen.Text))
+            {
+               
+                Imagen nueva = new Imagen();
+                nueva.Url = txtUrlImagen.Text;
+
+                listaImagenesTemp.Add(nueva);
+
+                
+                lbUrls.Items.Add(nueva.Url);
+
+                
+                txtUrlImagen.Clear();
+
+                
+                cargarImagen(nueva.Url);
+                MessageBox.Show("Imagen acumulada para el nuevo artículo.");
+            }
+        }
     }
 }

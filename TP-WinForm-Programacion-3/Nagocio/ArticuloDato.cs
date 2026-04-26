@@ -21,15 +21,16 @@ namespace Negocio
             try
             {
                 ///Trae todos los articulos tengan campos "validos" o no
-                string consulta = "SELECT A.Id, codigo, nombre, A.descripcion, " +
-                  "precio," +
-                  "M.Id  IdMarca, M.descripcion Marca, " +
-                  "C.Id IdCategoria, C.descripcion Categoria," +
-                  "ImagenUrl " +
-                  "FROM ARTICULOS A " +
-                  "LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo " +
-                  "LEFT JOIN MARCAS M ON A.IdMarca = M.Id " +
-                  "LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id";
+                // Usamos un subquery para traer solo la primera imagen de cada artículo
+                // Agregamos A.IdMarca y A.IdCategoria a la lista de campos
+                string consulta = @"SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion, A.Precio, 
+                    A.IdMarca, A.IdCategoria, 
+                    M.Descripcion AS Marca, 
+                    C.Descripcion AS Categoria, 
+                    (SELECT TOP 1 I.ImagenUrl FROM IMAGENES I WHERE I.IdArticulo = A.Id) AS ImagenUrl 
+                    FROM ARTICULOS A 
+                    INNER JOIN MARCAS M ON A.IdMarca = M.Id 
+                    INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id";
 
                 datos.setearConsulta(consulta);
                 datos.ejecutarLectura();
@@ -100,15 +101,25 @@ namespace Negocio
                
                 int idGenerado = datos.ejecutarAccionScalar();
                
-                datos.cerrarConexion();
-                datos = new AccesoADatos(); 
+                foreach (var img in nuevo.Imagenes)
+                {
+                    datos.cerrarConexion();
+                    datos = new AccesoADatos();
+                    
+                    datos.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@idArt, @url)");
+                    datos.setearParametro("@idArt", idGenerado);
+                    datos.setearParametro("@url", img.Url);
+                    datos.ejecutarAccion();
+                }
+                //datos.cerrarConexion();
+                //datos = new AccesoADatos(); 
 
-                datos.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@idArti, @url)");
+               // datos.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@idArti, @url)");
                
-                datos.setearParametro("@idArti", idGenerado);
-                datos.setearParametro("@url", nuevo.Imagen.Url);
+               // datos.setearParametro("@idArti", idGenerado);
+                //datos.setearParametro("@url", nuevo.Imagen.Url);
 
-                datos.ejecutarAccion();
+               // datos.ejecutarAccion();
             }
             catch (Exception ex)
             {
@@ -165,6 +176,31 @@ namespace Negocio
                 throw ex;
             }
 
+        }
+
+
+        public List<Imagen> listarImagenes(int idArticulo)
+        {
+            List<Imagen> lista = new List<Imagen>();
+            AccesoADatos datos = new AccesoADatos();
+            try
+            {
+                datos.setearConsulta("SELECT Id, IdArticulo, ImagenUrl FROM IMAGENES WHERE IdArticulo = @idArt");
+                datos.setearParametro("@idArt", idArticulo);
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Imagen img = new Imagen();
+                    img.Id = (int)datos.Lector["Id"];
+                    img.IdArticulo = (int)datos.Lector["IdArticulo"];
+                    img.Url = (string)datos.Lector["ImagenUrl"];
+                    lista.Add(img);
+                }
+                return lista;
+            }
+            catch (Exception ex) { throw ex; }
+            finally { datos.cerrarConexion(); }
         }
 
     }

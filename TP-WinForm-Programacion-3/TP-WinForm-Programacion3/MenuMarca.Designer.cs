@@ -30,26 +30,24 @@
         {
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.lblIDmarca = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
+            this.txbIdMarca = new System.Windows.Forms.TextBox();
             this.txbDescripcionMarca = new System.Windows.Forms.TextBox();
-            this.dgvMarca = new System.Windows.Forms.DataGridView();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMarca)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(15, 38);
+            this.btnAgregar.Location = new System.Drawing.Point(100, 110);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(221, 271);
+            this.btnCancelar.Location = new System.Drawing.Point(181, 110);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 3;
@@ -57,55 +55,55 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // lblIDmarca
+            // 
+            this.lblIDmarca.AutoSize = true;
+            this.lblIDmarca.Location = new System.Drawing.Point(25, 42);
+            this.lblIDmarca.Name = "lblIDmarca";
+            this.lblIDmarca.Size = new System.Drawing.Size(58, 13);
+            this.lblIDmarca.TabIndex = 2;
+            this.lblIDmarca.Text = "Id Marca : ";
+            // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(12, 12);
+            this.lblDescripcion.Location = new System.Drawing.Point(25, 84);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(69, 13);
             this.lblDescripcion.TabIndex = 3;
             this.lblDescripcion.Text = "Descripcion :";
             // 
+            // txbIdMarca
+            // 
+            this.txbIdMarca.Location = new System.Drawing.Point(102, 39);
+            this.txbIdMarca.Name = "txbIdMarca";
+            this.txbIdMarca.Size = new System.Drawing.Size(100, 20);
+            this.txbIdMarca.TabIndex = 0;
+            this.txbIdMarca.Text = "0000";
+            // 
             // txbDescripcionMarca
             // 
-            this.txbDescripcionMarca.Location = new System.Drawing.Point(88, 12);
+            this.txbDescripcionMarca.Location = new System.Drawing.Point(101, 84);
             this.txbDescripcionMarca.Name = "txbDescripcionMarca";
             this.txbDescripcionMarca.Size = new System.Drawing.Size(170, 20);
             this.txbDescripcionMarca.TabIndex = 1;
-            // 
-            // dgvMarca
-            // 
-            this.dgvMarca.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMarca.Location = new System.Drawing.Point(34, 78);
-            this.dgvMarca.Name = "dgvMarca";
-            this.dgvMarca.Size = new System.Drawing.Size(262, 178);
-            this.dgvMarca.TabIndex = 4;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(108, 38);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 5;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // MenuMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 306);
-            this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.dgvMarca);
+            this.ClientSize = new System.Drawing.Size(315, 183);
             this.Controls.Add(this.txbDescripcionMarca);
+            this.Controls.Add(this.txbIdMarca);
             this.Controls.Add(this.lblDescripcion);
+            this.Controls.Add(this.lblIDmarca);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAgregar);
+            this.MaximumSize = new System.Drawing.Size(331, 222);
+            this.MinimumSize = new System.Drawing.Size(331, 222);
             this.Name = "MenuMarca";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marca";
-            this.Load += new System.EventHandler(this.MenuMarca_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMarca)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,9 +113,9 @@
 
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label lblIDmarca;
         private System.Windows.Forms.Label lblDescripcion;
+        private System.Windows.Forms.TextBox txbIdMarca;
         private System.Windows.Forms.TextBox txbDescripcionMarca;
-        private System.Windows.Forms.DataGridView dgvMarca;
-        private System.Windows.Forms.Button btnEliminar;
     }
 }
