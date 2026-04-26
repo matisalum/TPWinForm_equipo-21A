@@ -125,12 +125,12 @@ namespace Negocio
             AccesoADatos datos = new AccesoADatos();
             try
             {
-                datos.setearConsulta("update Articulos set Codigo = @codigo , Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idMarca, IdCategoria = @idCaegoria, Precio = @precio where Id = @id");
+                datos.setearConsulta("update Articulos set Codigo = @codigo , Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idMarca, IdCategoria = @idCategoria, Precio = @precio where Id = @id");
                 datos.setearParametro("@codigo", modificar.Codigo);
                 datos.setearParametro("@nombre", modificar.Nombre);
                 datos.setearParametro("@descripcion", modificar.Descripcion);
                 datos.setearParametro("@idMarca", modificar.Marca.Id);
-                datos.setearParametro("@idCaegoria", modificar.Categoria.Id);
+                datos.setearParametro("@idCategoria", modificar.Categoria.Id);
                 datos.setearParametro("@precio", modificar.Precio);
                 datos.setearParametro("@id", modificar.Id);
 
