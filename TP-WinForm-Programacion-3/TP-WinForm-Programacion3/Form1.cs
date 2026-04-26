@@ -56,16 +56,14 @@ namespace TP_WinForm_Programacion3
             cargar();
         }
 
-        private void cargar()
-        
-            {
-
-                ArticuloDato datos = new ArticuloDato();
-                listaImgArticulo = datos.listar();
-                dgvArticulos.DataSource = listaImgArticulo;
-                OcultarColumna();
-                cargarImagen(listaImgArticulo[0].Imagen.Url);
-            }
+        private void cargar()    
+        {
+            ArticuloDato datos = new ArticuloDato();
+            listaImgArticulo = datos.listar();
+            dgvArticulos.DataSource = listaImgArticulo;
+            OcultarColumna();
+            cargarImagen(listaImgArticulo[0].Imagen.Url);
+        }
         
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
@@ -76,7 +74,6 @@ namespace TP_WinForm_Programacion3
 
         private void cargarImagen(string imagen)
         {
-
             try
             {
                 pbxArticulo.Load(imagen);

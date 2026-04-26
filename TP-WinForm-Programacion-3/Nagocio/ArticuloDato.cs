@@ -19,13 +19,14 @@ namespace Negocio
 
             try
             {
-               
-                string consulta = @"SELECT A.Id, Codigo, Nombre, A.Descripcion, Precio, 
-                            M.Descripcion AS Marca, C.Descripcion AS Categoria, I.ImagenUrl 
-                            FROM ARTICULOS A 
-                            INNER JOIN MARCAS M ON A.IdMarca = M.Id 
-                            INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id 
-                            LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo";
+                ///Trae todos los articulos tengan campos "validos" o no
+                string consulta = "SELECT A.Id, codigo, nombre, A.descripcion, " +
+                  "precio, M.descripcion Marca, C.descripcion Categoria, " +
+                  "ImagenUrl " +
+                  "FROM ARTICULOS A " +
+                  "LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo " +
+                  "LEFT JOIN MARCAS M ON A.IdMarca = M.Id " +
+                  "LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id";
 
                 datos.setearConsulta(consulta);
                 datos.ejecutarLectura();
@@ -39,22 +40,25 @@ namespace Negocio
                     arti.Nombre = (string)datos.Lector["Nombre"];
                     arti.Descripcion = (string)datos.Lector["Descripcion"];
                     arti.Precio = (decimal)datos.Lector["Precio"];
-
+                    
+                    //validaciones si el articulo cuenta o no con
+                    //URLimagen - Marca - Categoria
                     arti.Marca = new Marca();
-                    arti.Marca.Descripcion = (string)datos.Lector["Marca"];
+                    if (!(datos.Lector["Marca"] is DBNull))
+                        arti.Marca.Descripcion = (string)datos.Lector["Marca"];
+                    else
+                        arti.Categoria.Descripcion = "Sin marca";
 
                     arti.Categoria = new Categoria();
-                    arti.Categoria.Descripcion = (string)datos.Lector["Categoria"];
+                    if (!(datos.Lector["Categoria"] is DBNull))
+                        arti.Categoria.Descripcion = (string)datos.Lector["Categoria"];
+                    else
+                        arti.Categoria.Descripcion = "Sin categoria";
 
                     arti.Imagen = new Imagen();
                     if (!(datos.Lector["ImagenUrl"] is DBNull))
-                    {
                         arti.Imagen.Url = (string)datos.Lector["ImagenUrl"];
-                    }
-                    else
-                    {
-                        arti.Imagen.Url = "https://static.vecteezy.com/system/resources/previews/004/141/669/non_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg";
-                    }
+                    ///
 
                     lista.Add(arti);
                 }
@@ -77,9 +81,7 @@ namespace Negocio
             AccesoADatos datos = new AccesoADatos();
 
             try
-            {
-                
-              
+            {                    
                 datos.setearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) OUTPUT INSERTED.ID VALUES (@codigo, @nombre, @desc, @idMarca, @idCat, @precio)");
 
                 datos.setearParametro("@codigo", nuevo.Codigo);
@@ -88,16 +90,13 @@ namespace Negocio
                 datos.setearParametro("@idMarca", nuevo.Marca.Id);
                 datos.setearParametro("@idCat", nuevo.Categoria.Id);
                 datos.setearParametro("@precio", nuevo.Precio);
-
                
                 int idGenerado = datos.ejecutarAccionScalar();
-
                
                 datos.cerrarConexion();
                 datos = new AccesoADatos(); 
 
                 datos.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@idArti, @url)");
-
                
                 datos.setearParametro("@idArti", idGenerado);
                 datos.setearParametro("@url", nuevo.Imagen.Url);
@@ -114,10 +113,7 @@ namespace Negocio
             }
         }
 
-
-
     }
-
 
 }
 
