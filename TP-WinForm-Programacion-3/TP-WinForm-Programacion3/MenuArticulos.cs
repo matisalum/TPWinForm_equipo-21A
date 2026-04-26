@@ -39,17 +39,20 @@ namespace TP_WinForm_Programacion3
             ArticuloDato nego = new ArticuloDato();
 
             try
-            {   if (articulo == null)
+            {
+                if (articulo == null)
+                
                     articulo = new Articulo();
-                articulo.Nombre = txtNombre.Text;
-                articulo.Codigo = txtCodigo.Text;
-                articulo.Marca = (Marca)cboMarca.SelectedItem;
-                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
-                articulo.Precio = decimal.Parse(txtPrecio.Text);
-                Imagen img = new Imagen();
-                img.Url = txtURLImagen.Text;
-                articulo.Imagen = img;
-                articulo.Descripcion = txtDescripcion.Text;
+                    articulo.Codigo = txtCodigo.Text;
+                    articulo.Nombre = txtNombre.Text;
+                    articulo.Marca = (Marca)cboMarca.SelectedItem;
+                    articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+                    articulo.Precio = decimal.Parse(txtPrecio.Text);
+                    Imagen img = new Imagen();
+                    img.Url = txtURLImagen.Text;
+                    articulo.Imagen = img;
+                    articulo.Descripcion = txtDescripcion.Text;
+                
 
                 if (articulo.Id != 0)
                 {

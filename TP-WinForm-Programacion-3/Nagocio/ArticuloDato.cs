@@ -129,8 +129,8 @@ namespace Negocio
                 datos.setearParametro("@codigo", modificar.Codigo);
                 datos.setearParametro("@nombre", modificar.Nombre);
                 datos.setearParametro("@descripcion", modificar.Descripcion);
-                datos.setearParametro("@idMarca", modificar.Marca);
-                datos.setearParametro("@idCaegoria", modificar.Categoria);
+                datos.setearParametro("@idMarca", modificar.Marca.Id);
+                datos.setearParametro("@idCaegoria", modificar.Categoria.Id);
                 datos.setearParametro("@precio", modificar.Precio);
                 datos.setearParametro("@id", modificar.Id);
 
