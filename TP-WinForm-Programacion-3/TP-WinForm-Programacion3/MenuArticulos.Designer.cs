@@ -44,8 +44,8 @@
             this.txtURLImagen = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtbCargaDeDatos = new System.Windows.Forms.TextBox();
-            this.txtDescripcion = new System.Windows.Forms.ListView();
             this.pbxArticulo = new System.Windows.Forms.PictureBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -209,16 +209,6 @@
             this.txtbCargaDeDatos.TabIndex = 21;
             this.txtbCargaDeDatos.Text = "Carga de datos";
             // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtDescripcion.HideSelection = false;
-            this.txtDescripcion.Location = new System.Drawing.Point(32, 321);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(309, 142);
-            this.txtDescripcion.TabIndex = 6;
-            this.txtDescripcion.UseCompatibleStateImageBehavior = false;
-            // 
             // pbxArticulo
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(311, 173);
@@ -228,11 +218,19 @@
             this.pbxArticulo.TabIndex = 22;
             this.pbxArticulo.TabStop = false;
             // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(138, 288);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(167, 20);
+            this.txtDescripcion.TabIndex = 23;
+            // 
             // MenuArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 545);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.txtbCargaDeDatos);
             this.Controls.Add(this.label1);
@@ -241,7 +239,6 @@
             this.Controls.Add(this.cboMarca);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAgregado);
-            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.lblPrecio);
@@ -278,7 +275,7 @@
         private System.Windows.Forms.TextBox txtURLImagen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtbCargaDeDatos;
-        private System.Windows.Forms.ListView txtDescripcion;
         private System.Windows.Forms.PictureBox pbxArticulo;
+        private System.Windows.Forms.TextBox txtDescripcion;
     }
 }

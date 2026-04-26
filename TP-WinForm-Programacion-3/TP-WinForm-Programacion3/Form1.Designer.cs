@@ -34,8 +34,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.btnAgregando = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.btnDetalles = new System.Windows.Forms.Button();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -119,23 +119,24 @@
             this.btnAgregando.UseVisualStyleBackColor = true;
             this.btnAgregando.Click += new System.EventHandler(this.btnAgregando_Click);
             // 
-            // button6
+            // btnModificar
             // 
-            this.button6.Location = new System.Drawing.Point(93, 76);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Modificar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnModificar.Location = new System.Drawing.Point(93, 76);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 6;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
-            // button7
+            // btnEliminar
             // 
-            this.button7.Location = new System.Drawing.Point(174, 76);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Eliminar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(174, 76);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 7;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnDetalles
             // 
@@ -319,8 +320,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblBuscar);
             this.Controls.Add(this.btnDetalles);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregando);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -355,8 +356,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnAgregando;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnDetalles;
         private System.Windows.Forms.Label lblBuscar;
         private System.Windows.Forms.Label label5;

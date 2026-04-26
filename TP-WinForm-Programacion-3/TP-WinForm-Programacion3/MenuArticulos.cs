@@ -14,11 +14,17 @@ namespace TP_WinForm_Programacion3
 {
     public partial class MenuArticulos : Form
     {
+        private Articulo articulo = null;
+
         public MenuArticulos()
         {
             InitializeComponent();
-
-          
+        }
+        public MenuArticulos(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+            Text = "Modificar Articulo";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,23 +35,35 @@ namespace TP_WinForm_Programacion3
         private void btnAgregado_Click(object sender, EventArgs e)
         {
              
-            Articulo arti = new Articulo();
+           // Articulo arti = new Articulo();
             ArticuloDato nego = new ArticuloDato();
 
             try
-            {
-                arti.Nombre = txtNombre.Text;
-                arti.Codigo = txtCodigo.Text;
-                arti.Marca = (Marca)cboMarca.SelectedItem;
-                arti.Categoria = (Categoria)cboCategoria.SelectedItem;
-                arti.Precio = decimal.Parse(txtPrecio.Text);
+            {   if (articulo == null)
+                    articulo = new Articulo();
+                articulo.Nombre = txtNombre.Text;
+                articulo.Codigo = txtCodigo.Text;
+                articulo.Marca = (Marca)cboMarca.SelectedItem;
+                articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
                 Imagen img = new Imagen();
                 img.Url = txtURLImagen.Text;
-                arti.Imagen = img;
-                arti.Descripcion = txtDescripcion.Text;
+                articulo.Imagen = img;
+                articulo.Descripcion = txtDescripcion.Text;
 
-                nego.agregar(arti);
-                MessageBox.Show("Agregado Correctamente");
+                if (articulo.Id != 0)
+                {
+                    nego.modificar(articulo);
+                    MessageBox.Show("Modificado Correctamente");
+                }
+                else
+                {
+
+                    nego.agregar(articulo);
+                    MessageBox.Show("Agregado Correctamente");
+                }
+
+
                 Close();
             }
             catch (Exception ex)
@@ -60,9 +78,27 @@ namespace TP_WinForm_Programacion3
             CategoriaDato cateDato = new CategoriaDato();
             try
             {
+                /// valueMernber y displayMenber   le estamos asigando  los valores a Marca y Categoria
                 cboMarca.DataSource = marcaDato.listar();
-
+                cboMarca.ValueMember = "Id";
+                cboMarca.DisplayMember = "Descripcion";
                 cboCategoria.DataSource = cateDato.listar();
+                cboCategoria.ValueMember = "Id";
+                cboCategoria.DisplayMember = "Descripcion";
+
+                if(articulo != null)
+                { //Validacion del modificar para que los datos esten precargados 
+                    txtCodigo.Text = articulo.Codigo;
+                    txtNombre.Text = articulo.Nombre;
+                    txtPrecio.Text = articulo.Precio.ToString(); ;
+                    txtDescripcion.Text = articulo.Descripcion;
+                    txtURLImagen.Text = articulo.Imagen.Url;
+                    cargarImagen(articulo.Imagen.Url);
+                    cboMarca.SelectedValue = articulo.Marca.Id;
+                    cboCategoria.SelectedValue = articulo.Categoria.Id;
+
+                }
+
             }
             catch (Exception ex)
             {

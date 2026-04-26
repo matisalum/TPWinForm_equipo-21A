@@ -30,6 +30,14 @@ namespace TP_WinForm_Programacion3
             cargar();
 
         }
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Articulo seleccionado;
+            seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            MenuArticulos frm = new MenuArticulos(seleccionado);
+            frm.ShowDialog();
+            cargar();
+        }
 
 
         private void button3_Click(object sender, EventArgs e)
@@ -133,6 +141,8 @@ namespace TP_WinForm_Programacion3
         {
 
         }
+
+        
     }
 }
     

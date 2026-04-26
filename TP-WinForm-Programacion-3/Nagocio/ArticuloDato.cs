@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Dominio;
 using Negocio;
+using System.Globalization;
 
 namespace Negocio
 {
@@ -21,7 +22,9 @@ namespace Negocio
             {
                 ///Trae todos los articulos tengan campos "validos" o no
                 string consulta = "SELECT A.Id, codigo, nombre, A.descripcion, " +
-                  "precio, M.descripcion Marca, C.descripcion Categoria, " +
+                  "precio," +
+                  "M.Id  IdMarca, M.descripcion Marca, " +
+                  "C.Id IdCategoria, C.descripcion Categoria," +
                   "ImagenUrl " +
                   "FROM ARTICULOS A " +
                   "LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo " +
@@ -42,14 +45,18 @@ namespace Negocio
                     arti.Precio = (decimal)datos.Lector["Precio"];
                     
                     //validaciones si el articulo cuenta o no con
-                    //URLimagen - Marca - Categoria
+                    //URLimagen - Marca - Categoria - Id
                     arti.Marca = new Marca();
+                    if (!(datos.Lector["IdMarca"] is DBNull))
+                    arti.Marca.Id = (int)datos.Lector["IdMarca"];
                     if (!(datos.Lector["Marca"] is DBNull))
                         arti.Marca.Descripcion = (string)datos.Lector["Marca"];
                     else
-                        arti.Categoria.Descripcion = "Sin marca";
+                        arti.Marca.Descripcion = "Sin marca";
 
                     arti.Categoria = new Categoria();
+                    if (!(datos.Lector["IdCategoria"] is DBNull))
+                        arti.Categoria.Id = (int)datos.Lector["IdCategoria"];
                     if (!(datos.Lector["Categoria"] is DBNull))
                         arti.Categoria.Descripcion = (string)datos.Lector["Categoria"];
                     else
@@ -111,6 +118,35 @@ namespace Negocio
             {
                 datos.cerrarConexion();
             }
+        }
+
+        public void modificar(Articulo modificar)
+        {
+            AccesoADatos datos = new AccesoADatos();
+            try
+            {
+                datos.setearConsulta("update Articulos set Codigo = @codigo , Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idMarca, IdCategoria = @idCaegoria, Precio = @precio where Id = @id");
+                datos.setearParametro("@codigo", modificar.Codigo);
+                datos.setearParametro("@nombre", modificar.Nombre);
+                datos.setearParametro("@descripcion", modificar.Descripcion);
+                datos.setearParametro("@idMarca", modificar.Marca);
+                datos.setearParametro("@idCaegoria", modificar.Categoria);
+                datos.setearParametro("@precio", modificar.Precio);
+                datos.setearParametro("@id", modificar.Id);
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+
         }
 
     }
