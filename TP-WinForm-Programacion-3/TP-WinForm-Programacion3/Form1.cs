@@ -110,7 +110,8 @@ namespace TP_WinForm_Programacion3
 
         private void btnDetalles_Click(object sender, EventArgs e)
         {
-            Detalles ventana = new Detalles();
+            Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
+            Detalles ventana = new Detalles(seleccionado);
             ventana.ShowDialog();
         }
 
@@ -158,7 +159,6 @@ namespace TP_WinForm_Programacion3
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.ToString());
             }
         }
