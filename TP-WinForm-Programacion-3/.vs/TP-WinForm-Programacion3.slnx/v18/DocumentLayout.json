@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\menumarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|c:\\users\\julii\\desktop\\repogit\\tp-winform-programacion-3\\tp-winform-programacion-3\\tp-winform-programacion3\\menumarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\menumarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|c:\\users\\julii\\desktop\\repogit\\tp-winform-programacion-3\\tp-winform-programacion-3\\tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -43,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{27594BD1-BC79-4342-B753-9C5AE387E433}|Nagocio\\Negocio.csproj|solutionrelative:nagocio\\categoriadato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|c:\\users\\julii\\desktop\\repogit\\tp-winform-programacion-3\\tp-winform-programacion-3\\tp-winform-programacion3\\menucategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\tp-winform-programacion3\\menucategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62FAE867-23BC-4F11-9BDD-FC40A2A11276}|TP-WinForm-Programacion3\\TP-WinForm-Programacion3.csproj|solutionrelative:tp-winform-programacion3\\menucategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -80,10 +80,9 @@
               "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\Form1.cs",
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs [Design]",
               "RelativeToolTip": "TP-WinForm-Programacion3\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T22:19:23.639Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-26T19:36:07.141Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -94,10 +93,9 @@
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Form1.cs",
               "RelativeToolTip": "TP-WinForm-Programacion3\\Form1.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAlwJoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T23:01:14.267Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-26T19:36:07.26Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "Nagocio\\MarcaDato.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T01:23:43.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T19:36:07.262Z"
             },
             {
               "$type": "Document",
@@ -124,9 +121,8 @@
               "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\MenuArticulos.cs",
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\MenuArticulos.cs [Design]",
               "RelativeToolTip": "TP-WinForm-Programacion3\\MenuArticulos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T03:48:14.706Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-26T19:36:07.267Z"
             },
             {
               "$type": "Document",
@@ -138,8 +134,7 @@
               "RelativeToolTip": "Nagocio\\ArticuloDato.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAawIUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:30:16.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T19:36:07.268Z"
             },
             {
               "$type": "Document",
@@ -151,8 +146,7 @@
               "RelativeToolTip": "Dominio\\Marca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:12:31.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T19:36:07.268Z"
             },
             {
               "$type": "Document",
@@ -164,8 +158,7 @@
               "RelativeToolTip": "Nagocio\\CategoriaDato.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T01:28:11.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T19:36:07.27Z"
             },
             {
               "$type": "Document",
@@ -176,7 +169,7 @@
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\MenuMarca.cs [Design]",
               "RelativeToolTip": "TP-WinForm-Programacion3\\MenuMarca.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T04:07:02.115Z",
+              "WhenOpened": "2026-04-26T19:36:09.221Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -187,9 +180,8 @@
               "RelativeDocumentMoniker": "TP-WinForm-Programacion3\\MenuCategoria.cs",
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\MenuCategoria.cs [Design]",
               "RelativeToolTip": "TP-WinForm-Programacion3\\MenuCategoria.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T04:06:48.065Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-26T19:36:09.243Z"
             },
             {
               "$type": "Document",
@@ -200,9 +192,8 @@
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\MenuArticulos.cs",
               "RelativeToolTip": "TP-WinForm-Programacion3\\MenuArticulos.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAswIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:02:17.458Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-26T19:36:09.244Z"
             },
             {
               "$type": "Document",
@@ -213,9 +204,8 @@
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\MenuCategoria.cs",
               "RelativeToolTip": "TP-WinForm-Programacion3\\MenuCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:10:50.035Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-26T19:36:09.244Z"
             },
             {
               "$type": "Document",
@@ -227,7 +217,7 @@
               "RelativeToolTip": "Dominio\\Articulos.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAASwBYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T00:28:35.356Z"
+              "WhenOpened": "2026-04-26T19:36:09.245Z"
             },
             {
               "$type": "Document",
@@ -239,7 +229,7 @@
               "RelativeToolTip": "Nagocio\\AccesoADatos.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAmwFQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:30:13.446Z"
+              "WhenOpened": "2026-04-26T19:36:09.246Z"
             },
             {
               "$type": "Document",
@@ -251,7 +241,7 @@
               "RelativeToolTip": "TP-WinForm-Programacion3\\Detalles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T07:49:15.539Z"
+              "WhenOpened": "2026-04-26T19:36:09.247Z"
             },
             {
               "$type": "Document",
@@ -262,7 +252,7 @@
               "ToolTip": "C:\\Users\\Julii\\Desktop\\RepoGit\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion-3\\TP-WinForm-Programacion3\\Detalles.cs [Design]",
               "RelativeToolTip": "TP-WinForm-Programacion3\\Detalles.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T04:35:20.284Z"
+              "WhenOpened": "2026-04-26T19:36:09.248Z"
             }
           ]
         }
