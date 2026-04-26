@@ -38,12 +38,18 @@ namespace TP_WinForm_Programacion3
             frm.ShowDialog();
             cargar();
         }
-
+        private void tsMarca_Click(object sender, EventArgs e)
+        {
+            MenuMarca ventana = new MenuMarca();
+            ventana.ShowDialog();
+            cargar();
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
             MenuMarca ventana = new MenuMarca();
             ventana.ShowDialog();
+            cargar();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -95,12 +101,6 @@ namespace TP_WinForm_Programacion3
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
 
-        }
-
-        private void tlAgregarMarca_Click(object sender, EventArgs e)
-        {
-            MenuMarca ventana = new MenuMarca();
-            ventana.ShowDialog();
         }
 
         private void tsSalir_Click(object sender, EventArgs e)
@@ -162,6 +162,7 @@ namespace TP_WinForm_Programacion3
                 MessageBox.Show(ex.ToString());
             }
         }
+
     }
 }
     

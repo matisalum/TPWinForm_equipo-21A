@@ -29,8 +29,8 @@ namespace Negocio
                     C.Descripcion AS Categoria, 
                     (SELECT TOP 1 I.ImagenUrl FROM IMAGENES I WHERE I.IdArticulo = A.Id) AS ImagenUrl 
                     FROM ARTICULOS A 
-                    INNER JOIN MARCAS M ON A.IdMarca = M.Id 
-                    INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id";
+                    LEFT JOIN MARCAS M ON A.IdMarca = M.Id 
+                    LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id";
 
                 datos.setearConsulta(consulta);
                 datos.ejecutarLectura();

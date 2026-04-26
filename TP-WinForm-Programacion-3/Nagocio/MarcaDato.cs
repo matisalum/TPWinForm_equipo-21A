@@ -10,7 +10,6 @@ namespace Negocio
     public class MarcaDato
     {
         public List<Marca> listar()
-
         {
             List<Marca> lista = new List<Marca>();
             AccesoADatos datos = new AccesoADatos();
@@ -41,5 +40,45 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
+        public void agregar(Marca nueva)
+        {
+            AccesoADatos datos = new AccesoADatos();
+
+            try
+            {
+                datos.setearConsulta("INSERT INTO MARCAS (Descripcion) VALUES (@descripcion)");
+                datos.setearParametro("@descripcion", nueva.Descripcion);
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+        public void eliminar(int id)
+        {
+            AccesoADatos datos = new AccesoADatos();
+
+            try
+            {
+                datos.setearConsulta("DELETE FROM MARCAS WHERE Id = @id");
+                datos.setearParametro("@id", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
     }
 }

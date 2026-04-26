@@ -46,13 +46,7 @@
             this.msPrincipal = new System.Windows.Forms.MenuStrip();
             this.tsGestion = new System.Windows.Forms.ToolStripMenuItem();
             this.tsMarca = new System.Windows.Forms.ToolStripMenuItem();
-            this.tlAgregarMarca = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsEditarMarca = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsEliminarMarca = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCategoria = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsAgregarCategoria = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsEditarCategoria = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsEliminarCategoria = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.txbBusqueda = new System.Windows.Forms.TextBox();
@@ -234,65 +228,21 @@
             // 
             // tsMarca
             // 
-            this.tsMarca.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tlAgregarMarca,
-            this.tsEditarMarca,
-            this.tsEliminarMarca});
             this.tsMarca.Name = "tsMarca";
-            this.tsMarca.Size = new System.Drawing.Size(125, 22);
+            this.tsMarca.Size = new System.Drawing.Size(180, 22);
             this.tsMarca.Text = "Marca";
-            // 
-            // tlAgregarMarca
-            // 
-            this.tlAgregarMarca.Name = "tlAgregarMarca";
-            this.tlAgregarMarca.Size = new System.Drawing.Size(117, 22);
-            this.tlAgregarMarca.Text = "Agregar";
-            this.tlAgregarMarca.Click += new System.EventHandler(this.tlAgregarMarca_Click);
-            // 
-            // tsEditarMarca
-            // 
-            this.tsEditarMarca.Name = "tsEditarMarca";
-            this.tsEditarMarca.Size = new System.Drawing.Size(117, 22);
-            this.tsEditarMarca.Text = "Editar";
-            // 
-            // tsEliminarMarca
-            // 
-            this.tsEliminarMarca.Name = "tsEliminarMarca";
-            this.tsEliminarMarca.Size = new System.Drawing.Size(117, 22);
-            this.tsEliminarMarca.Text = "Eliminar";
+            this.tsMarca.Click += new System.EventHandler(this.tsMarca_Click);
             // 
             // tsCategoria
             // 
-            this.tsCategoria.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsAgregarCategoria,
-            this.tsEditarCategoria,
-            this.tsEliminarCategoria});
             this.tsCategoria.Name = "tsCategoria";
-            this.tsCategoria.Size = new System.Drawing.Size(125, 22);
+            this.tsCategoria.Size = new System.Drawing.Size(180, 22);
             this.tsCategoria.Text = "Categoria";
-            // 
-            // tsAgregarCategoria
-            // 
-            this.tsAgregarCategoria.Name = "tsAgregarCategoria";
-            this.tsAgregarCategoria.Size = new System.Drawing.Size(117, 22);
-            this.tsAgregarCategoria.Text = "Agregar";
-            // 
-            // tsEditarCategoria
-            // 
-            this.tsEditarCategoria.Name = "tsEditarCategoria";
-            this.tsEditarCategoria.Size = new System.Drawing.Size(117, 22);
-            this.tsEditarCategoria.Text = "Editar";
-            // 
-            // tsEliminarCategoria
-            // 
-            this.tsEliminarCategoria.Name = "tsEliminarCategoria";
-            this.tsEliminarCategoria.Size = new System.Drawing.Size(117, 22);
-            this.tsEliminarCategoria.Text = "Eliminar";
             // 
             // tsSalir
             // 
             this.tsSalir.Name = "tsSalir";
-            this.tsSalir.Size = new System.Drawing.Size(125, 22);
+            this.tsSalir.Size = new System.Drawing.Size(180, 22);
             this.tsSalir.Text = "Salir";
             this.tsSalir.Click += new System.EventHandler(this.tsSalir_Click);
             // 
@@ -369,13 +319,7 @@
         private System.Windows.Forms.MenuStrip msPrincipal;
         private System.Windows.Forms.ToolStripMenuItem tsGestion;
         private System.Windows.Forms.ToolStripMenuItem tsMarca;
-        private System.Windows.Forms.ToolStripMenuItem tlAgregarMarca;
-        private System.Windows.Forms.ToolStripMenuItem tsEditarMarca;
-        private System.Windows.Forms.ToolStripMenuItem tsEliminarMarca;
         private System.Windows.Forms.ToolStripMenuItem tsCategoria;
-        private System.Windows.Forms.ToolStripMenuItem tsAgregarCategoria;
-        private System.Windows.Forms.ToolStripMenuItem tsEditarCategoria;
-        private System.Windows.Forms.ToolStripMenuItem tsEliminarCategoria;
         private System.Windows.Forms.ToolStripMenuItem tsSalir;
         private System.Windows.Forms.TextBox txbBusqueda;
         private System.Windows.Forms.ToolStripMenuItem tsmAyuda;
