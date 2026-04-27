@@ -1,0 +1,127 @@
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Julii\Desktop\PROGAMACION III\TP GRUPO\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
+C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\RepoGit\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Mati\OneDrive\Desktop\TP WinForm\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Mati\OneDrive\Desktop\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.dll
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.dll
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Dominio.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\bin\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\TP-WinForm-Programacion3\obj\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\TP-WinForm-Programacion3.exe.config
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\TP-WinForm-Programacion3.pdb
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\Dominio.dll
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\Nagocio.dll
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\Dominio.pdb
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\bin\Debug\Nagocio.pdb
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP-WinForm-Programacion3.csproj.AssemblyReference.cache
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP_WinForm_Programacion3.Detalles.resources
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP_WinForm_Programacion3.FrmPrincipal.resources
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP_WinForm_Programacion3.MenuCategoria.resources
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP_WinForm_Programacion3.MenuMarca.resources
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP_WinForm_Programacion3.MenuArticulos.resources
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP_WinForm_Programacion3.Properties.Resources.resources
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP-WinForm-Programacion3.csproj.GenerateResource.cache
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP-WinForm-Programacion3.csproj.CoreCompileInputs.cache
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP-WinFo.619E0F4E.Up2Date
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP-WinForm-Programacion3.exe
+C:\Users\Mati\OneDrive\Desktop\TPWinForm_equipo-21A\TP-WinForm-Programacion-3\TPWinForm_equipo-21A\TPWinForm_equipo-21A\obj\Debug\TP-WinForm-Programacion3.pdb
