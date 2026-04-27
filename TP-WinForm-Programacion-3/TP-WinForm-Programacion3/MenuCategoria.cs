@@ -31,17 +31,37 @@ namespace TP_WinForm_Programacion3
 
         private void btnAgregar_Click_1(object sender, EventArgs e)
         {
-            Categoria nueva = new Categoria();
-            nueva.Descripcion = txbDescripcionCategoria.Text;
-
-
             CategoriaDato datos = new CategoriaDato();
-            datos.agregar(nueva);
 
-            txbDescripcionCategoria.Clear();
+            try
+            {
+            Categoria nueva = new Categoria();
 
-            MessageBox.Show("Categoria agregada correctamente");
-            cargar();
+            nueva.Descripcion = txbDescripcionCategoria.Text.Trim();
+                if (nueva.Descripcion != "")
+                {
+                    datos.agregar(nueva);
+                    MessageBox.Show("Categoria agregada correctamente");
+                    txbDescripcionCategoria.Clear();
+                    cargar();
+                }
+                else
+                {
+                    MessageBox.Show("La descripción no puede estar vacía");
+                    return;
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+
+
+
+
         }
 
         private void btnEliminar_Click_1(object sender, EventArgs e)

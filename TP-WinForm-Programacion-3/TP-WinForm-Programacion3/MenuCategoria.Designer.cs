@@ -34,16 +34,15 @@
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(29, 366);
+            this.btnEliminar.Location = new System.Drawing.Point(18, 321);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 11;
+            this.btnEliminar.TabIndex = 2;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click_1);
@@ -51,7 +50,7 @@
             // dgvCategoria
             // 
             this.dgvCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCategoria.Location = new System.Drawing.Point(29, 131);
+            this.dgvCategoria.Location = new System.Drawing.Point(18, 86);
             this.dgvCategoria.MultiSelect = false;
             this.dgvCategoria.Name = "dgvCategoria";
             this.dgvCategoria.ReadOnly = true;
@@ -61,15 +60,15 @@
             // 
             // txbDescripcionCategoria
             // 
-            this.txbDescripcionCategoria.Location = new System.Drawing.Point(98, 64);
+            this.txbDescripcionCategoria.Location = new System.Drawing.Point(90, 22);
             this.txbDescripcionCategoria.Name = "txbDescripcionCategoria";
             this.txbDescripcionCategoria.Size = new System.Drawing.Size(170, 20);
-            this.txbDescripcionCategoria.TabIndex = 6;
+            this.txbDescripcionCategoria.TabIndex = 0;
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(23, 67);
+            this.lblDescripcion.Location = new System.Drawing.Point(15, 25);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(69, 13);
             this.lblDescripcion.TabIndex = 8;
@@ -77,47 +76,37 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(197, 366);
+            this.btnCancelar.Location = new System.Drawing.Point(186, 321);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 9;
+            this.btnCancelar.TabIndex = 3;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(29, 102);
+            this.btnAgregar.Location = new System.Drawing.Point(18, 57);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 7;
+            this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(26, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "CATEGORIA";
             // 
             // MenuCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 421);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(298, 352);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.dgvCategoria);
             this.Controls.Add(this.txbDescripcionCategoria);
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAgregar);
-            this.MaximumSize = new System.Drawing.Size(314, 460);
-            this.MinimumSize = new System.Drawing.Size(314, 460);
+            this.MaximumSize = new System.Drawing.Size(314, 391);
+            this.MinimumSize = new System.Drawing.Size(314, 391);
             this.Name = "MenuCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuCategoria";
@@ -136,6 +125,5 @@
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }

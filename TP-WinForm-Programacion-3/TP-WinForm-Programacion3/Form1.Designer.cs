@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.btnAgregando = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -55,15 +53,6 @@
             this.msPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(548, 383);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Codigo";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -71,45 +60,36 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(227, 38);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 8;
             this.textBox1.Text = "Lista De Articulos";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(629, 412);
+            this.button2.Location = new System.Drawing.Point(648, 397);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
+            this.button2.TabIndex = 6;
             this.button2.Text = "Categoria";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(548, 412);
+            this.button3.Location = new System.Drawing.Point(567, 397);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
+            this.button3.TabIndex = 5;
             this.button3.Text = "Marca";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(629, 383);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Nombre";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // btnAgregando
             // 
             this.btnAgregando.Location = new System.Drawing.Point(12, 75);
             this.btnAgregando.Name = "btnAgregando";
             this.btnAgregando.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregando.TabIndex = 5;
+            this.btnAgregando.TabIndex = 1;
             this.btnAgregando.Text = "Agregar";
             this.btnAgregando.UseVisualStyleBackColor = true;
             this.btnAgregando.Click += new System.EventHandler(this.btnAgregando_Click);
@@ -119,7 +99,7 @@
             this.btnModificar.Location = new System.Drawing.Point(93, 76);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 6;
+            this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
@@ -129,7 +109,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(174, 76);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 7;
+            this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -139,7 +119,7 @@
             this.btnDetalles.Location = new System.Drawing.Point(255, 76);
             this.btnDetalles.Name = "btnDetalles";
             this.btnDetalles.Size = new System.Drawing.Size(75, 23);
-            this.btnDetalles.TabIndex = 8;
+            this.btnDetalles.TabIndex = 4;
             this.btnDetalles.Text = "Ver Detalle";
             this.btnDetalles.UseVisualStyleBackColor = true;
             this.btnDetalles.Click += new System.EventHandler(this.btnDetalles_Click);
@@ -214,7 +194,7 @@
             this.msPrincipal.Location = new System.Drawing.Point(0, 0);
             this.msPrincipal.Name = "msPrincipal";
             this.msPrincipal.Size = new System.Drawing.Size(764, 24);
-            this.msPrincipal.TabIndex = 25;
+            this.msPrincipal.TabIndex = 7;
             this.msPrincipal.Text = "menuStrip1";
             // 
             // tsGestion
@@ -230,20 +210,20 @@
             // tsMarca
             // 
             this.tsMarca.Name = "tsMarca";
-            this.tsMarca.Size = new System.Drawing.Size(180, 22);
+            this.tsMarca.Size = new System.Drawing.Size(125, 22);
             this.tsMarca.Text = "Marca";
             this.tsMarca.Click += new System.EventHandler(this.tsMarca_Click);
             // 
             // tsCategoria
             // 
             this.tsCategoria.Name = "tsCategoria";
-            this.tsCategoria.Size = new System.Drawing.Size(180, 22);
+            this.tsCategoria.Size = new System.Drawing.Size(125, 22);
             this.tsCategoria.Text = "Categoria";
             // 
             // tsSalir
             // 
             this.tsSalir.Name = "tsSalir";
-            this.tsSalir.Size = new System.Drawing.Size(180, 22);
+            this.tsSalir.Size = new System.Drawing.Size(125, 22);
             this.tsSalir.Text = "Salir";
             this.tsSalir.Click += new System.EventHandler(this.tsSalir_Click);
             // 
@@ -258,7 +238,7 @@
             this.txbBusqueda.Location = new System.Drawing.Point(341, 80);
             this.txbBusqueda.Name = "txbBusqueda";
             this.txbBusqueda.Size = new System.Drawing.Size(198, 20);
-            this.txbBusqueda.TabIndex = 26;
+            this.txbBusqueda.TabIndex = 0;
             this.txbBusqueda.TextChanged += new System.EventHandler(this.txbBusqueda_TextChanged);
             // 
             // FrmPrincipal
@@ -275,11 +255,9 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnAgregando);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.msPrincipal);
             this.MainMenuStrip = this.msPrincipal;
             this.MaximumSize = new System.Drawing.Size(780, 486);
@@ -304,11 +282,9 @@
         private System.Windows.Forms.Button Agregar1;
         private System.Windows.Forms.Button Eliminar;
         private System.Windows.Forms.Button Modificar;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnAgregando;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnEliminar;

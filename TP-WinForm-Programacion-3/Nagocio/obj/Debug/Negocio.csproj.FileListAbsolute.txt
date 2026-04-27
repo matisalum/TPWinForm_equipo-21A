@@ -34,3 +34,12 @@ C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Nagocio.dll
 C:\Users\franc\Desktop\UTN 2026\Progra 3\Tp\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\bin\Debug\Nagocio.dll
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\bin\Debug\Nagocio.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\bin\Debug\Dominio.dll
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\bin\Debug\Dominio.pdb
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Nagocio.dll
+C:\Users\Julii\Desktop\Repo Git\TP-WinForm-Programacion-3\TP-WinForm-Programacion-3\Nagocio\obj\Debug\Nagocio.pdb

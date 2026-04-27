@@ -42,7 +42,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(16, 47);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 2;
+            this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -71,7 +71,7 @@
             this.txbDescripcionMarca.Location = new System.Drawing.Point(85, 9);
             this.txbDescripcionMarca.Name = "txbDescripcionMarca";
             this.txbDescripcionMarca.Size = new System.Drawing.Size(170, 20);
-            this.txbDescripcionMarca.TabIndex = 1;
+            this.txbDescripcionMarca.TabIndex = 0;
             // 
             // dgvMarca
             // 
@@ -89,7 +89,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(16, 311);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 5;
+            this.btnEliminar.TabIndex = 2;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
