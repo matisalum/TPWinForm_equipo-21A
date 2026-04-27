@@ -164,6 +164,12 @@ namespace TP_WinForm_Programacion3
             }
         }
 
+        private void tsCategoria_Click(object sender, EventArgs e)
+        {
+            MenuCategoria ventana = new MenuCategoria();
+            ventana.ShowDialog();
+            cargar();
+        }
     }
 }
     

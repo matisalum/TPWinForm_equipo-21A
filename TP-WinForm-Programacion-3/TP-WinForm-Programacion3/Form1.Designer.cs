@@ -46,7 +46,6 @@
             this.tsMarca = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCategoria = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSalir = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmAyuda = new System.Windows.Forms.ToolStripMenuItem();
             this.txbBusqueda = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
@@ -189,8 +188,7 @@
             // msPrincipal
             // 
             this.msPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsGestion,
-            this.tsmAyuda});
+            this.tsGestion});
             this.msPrincipal.Location = new System.Drawing.Point(0, 0);
             this.msPrincipal.Name = "msPrincipal";
             this.msPrincipal.Size = new System.Drawing.Size(764, 24);
@@ -210,28 +208,23 @@
             // tsMarca
             // 
             this.tsMarca.Name = "tsMarca";
-            this.tsMarca.Size = new System.Drawing.Size(125, 22);
+            this.tsMarca.Size = new System.Drawing.Size(180, 22);
             this.tsMarca.Text = "Marca";
             this.tsMarca.Click += new System.EventHandler(this.tsMarca_Click);
             // 
             // tsCategoria
             // 
             this.tsCategoria.Name = "tsCategoria";
-            this.tsCategoria.Size = new System.Drawing.Size(125, 22);
+            this.tsCategoria.Size = new System.Drawing.Size(180, 22);
             this.tsCategoria.Text = "Categoria";
+            this.tsCategoria.Click += new System.EventHandler(this.tsCategoria_Click);
             // 
             // tsSalir
             // 
             this.tsSalir.Name = "tsSalir";
-            this.tsSalir.Size = new System.Drawing.Size(125, 22);
+            this.tsSalir.Size = new System.Drawing.Size(180, 22);
             this.tsSalir.Text = "Salir";
             this.tsSalir.Click += new System.EventHandler(this.tsSalir_Click);
-            // 
-            // tsmAyuda
-            // 
-            this.tsmAyuda.Name = "tsmAyuda";
-            this.tsmAyuda.Size = new System.Drawing.Size(53, 20);
-            this.tsmAyuda.Text = "Ayuda";
             // 
             // txbBusqueda
             // 
@@ -301,7 +294,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsCategoria;
         private System.Windows.Forms.ToolStripMenuItem tsSalir;
         private System.Windows.Forms.TextBox txbBusqueda;
-        private System.Windows.Forms.ToolStripMenuItem tsmAyuda;
     }
 }
 

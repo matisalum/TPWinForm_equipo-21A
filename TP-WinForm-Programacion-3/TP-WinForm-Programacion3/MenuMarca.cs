@@ -36,6 +36,7 @@ namespace TP_WinForm_Programacion3
                 {
                     datos.agregar(nMarca);
                     MessageBox.Show("Marca cargada exitosamente!");
+                    txbDescripcionMarca.Clear();
                     cargar();
                 }
                 else

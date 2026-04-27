@@ -111,15 +111,7 @@ namespace Negocio
                     datos.setearParametro("@url", img.Url);
                     datos.ejecutarAccion();
                 }
-                //datos.cerrarConexion();
-                //datos = new AccesoADatos(); 
 
-               // datos.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@idArti, @url)");
-               
-               // datos.setearParametro("@idArti", idGenerado);
-                //datos.setearParametro("@url", nuevo.Imagen.Url);
-
-               // datos.ejecutarAccion();
             }
             catch (Exception ex)
             {
@@ -164,7 +156,6 @@ namespace Negocio
             {
                 datos.cerrarConexion();
             }
-
 
         }
 

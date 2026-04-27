@@ -209,6 +209,8 @@
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.txbNombre);
             this.Controls.Add(this.lblNombre);
+            this.MaximumSize = new System.Drawing.Size(574, 413);
+            this.MinimumSize = new System.Drawing.Size(574, 413);
             this.Name = "Detalles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalles";

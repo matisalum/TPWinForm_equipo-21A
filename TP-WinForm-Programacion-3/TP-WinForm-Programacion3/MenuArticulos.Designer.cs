@@ -195,13 +195,14 @@
             this.txtbCargaDeDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbCargaDeDatos.Location = new System.Drawing.Point(78, 28);
             this.txtbCargaDeDatos.Name = "txtbCargaDeDatos";
+            this.txtbCargaDeDatos.ReadOnly = true;
             this.txtbCargaDeDatos.Size = new System.Drawing.Size(227, 38);
             this.txtbCargaDeDatos.TabIndex = 21;
             this.txtbCargaDeDatos.Text = "Carga de datos";
             // 
             // pbxArticulo
             // 
-            this.pbxArticulo.Location = new System.Drawing.Point(440, 2);
+            this.pbxArticulo.Location = new System.Drawing.Point(372, 37);
             this.pbxArticulo.Name = "pbxArticulo";
             this.pbxArticulo.Size = new System.Drawing.Size(238, 218);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
