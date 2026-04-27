@@ -42,7 +42,6 @@ namespace TP_WinForm_Programacion3
                 if (articulo == null)
                     articulo = new Articulo();
 
-                // 1. Cargamos los datos básicos
                 articulo.Codigo = txtCodigo.Text;
                 articulo.Nombre = txtNombre.Text;
                 articulo.Descripcion = txtDescripcion.Text;
@@ -50,15 +49,13 @@ namespace TP_WinForm_Programacion3
                 articulo.Marca = (Marca)cboMarca.SelectedItem;
                 articulo.Categoria = (Categoria)cboCategoria.SelectedItem;
 
-                // 2. Lógica de Imágenes
+              
                 if (articulo.Id == 0)
                 {
-                    // SI ES NUEVO: 
-                    // Usamos la lista que fuimos llenando con el botón "+"
+                   
                     articulo.Imagenes = listaImagenesTemp;
 
-                    // Opcional: Si el usuario pegó algo en el cuadro de texto pero se olvidó 
-                    // de apretar el "+", lo agregamos acá para que no se pierda esa última URL
+                  
                     if (!string.IsNullOrEmpty(txtUrlImagen.Text))
                     {
                         Imagen ultimaImg = new Imagen { Url = txtUrlImagen.Text };
@@ -70,8 +67,7 @@ namespace TP_WinForm_Programacion3
                 }
                 else
                 {
-                    // SI ES MODIFICACIÓN:
-                    // Por ahora mantenemos tu lógica (o podrías adaptar modificar luego)
+                    
                     Imagen img = new Imagen();
                     img.Url = txtUrlImagen.Text;
                     articulo.Imagen = img;
@@ -94,7 +90,7 @@ namespace TP_WinForm_Programacion3
             CategoriaDato cateDato = new CategoriaDato();
             try
             {
-                /// valueMernber y displayMenber   le estamos asigando  los valores a Marca y Categoria
+              
                 cboMarca.DataSource = marcaDato.listar();
                 cboMarca.ValueMember = "Id";
                 cboMarca.DisplayMember = "Descripcion";

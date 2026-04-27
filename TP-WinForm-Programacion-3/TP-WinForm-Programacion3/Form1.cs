@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dominio;
 using Negocio;
-//using static TP_WinForm_Programacion3.Articulo;
+
 
 
 namespace TP_WinForm_Programacion3

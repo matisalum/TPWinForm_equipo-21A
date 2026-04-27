@@ -20,9 +20,7 @@ namespace Negocio
 
             try
             {
-                ///Trae todos los articulos tengan campos "validos" o no
-                // Usamos un subquery para traer solo la primera imagen de cada artículo
-                // Agregamos A.IdMarca y A.IdCategoria a la lista de campos
+               
                 string consulta = @"SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion, A.Precio, 
                     A.IdMarca, A.IdCategoria, 
                     M.Descripcion AS Marca, 
@@ -45,8 +43,7 @@ namespace Negocio
                     arti.Descripcion = (string)datos.Lector["Descripcion"];
                     arti.Precio = (decimal)datos.Lector["Precio"];
                     
-                    //validaciones si el articulo cuenta o no con
-                    //URLimagen - Marca - Categoria - Id
+                 
                     arti.Marca = new Marca();
                     if (!(datos.Lector["IdMarca"] is DBNull))
                     arti.Marca.Id = (int)datos.Lector["IdMarca"];
