@@ -56,6 +56,7 @@ namespace TP_WinForm_Programacion3
         {
             MenuCategoria ventana = new MenuCategoria();
             ventana.ShowDialog();
+            cargar();
         }
 
         private void OcultarColumna()

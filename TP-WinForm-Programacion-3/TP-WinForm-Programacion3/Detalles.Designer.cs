@@ -151,7 +151,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(463, 327);
+            this.btnAceptar.Location = new System.Drawing.Point(463, 339);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 13;
@@ -161,16 +161,16 @@
             // 
             // pbxArticulo
             // 
-            this.pbxArticulo.Location = new System.Drawing.Point(330, 128);
+            this.pbxArticulo.Location = new System.Drawing.Point(330, 36);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(153, 142);
+            this.pbxArticulo.Size = new System.Drawing.Size(208, 234);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 14;
             this.pbxArticulo.TabStop = false;
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(408, 281);
+            this.btnSiguiente.Location = new System.Drawing.Point(463, 281);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
             this.btnSiguiente.TabIndex = 15;

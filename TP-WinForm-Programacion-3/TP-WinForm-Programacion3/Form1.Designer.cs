@@ -69,6 +69,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(15, 27);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(227, 38);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Lista De Articulos";
@@ -281,6 +282,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.msPrincipal);
             this.MainMenuStrip = this.msPrincipal;
+            this.MaximumSize = new System.Drawing.Size(780, 486);
+            this.MinimumSize = new System.Drawing.Size(780, 486);
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "APP";

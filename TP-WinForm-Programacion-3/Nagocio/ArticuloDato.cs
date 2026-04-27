@@ -140,8 +140,16 @@ namespace Negocio
                 datos.setearParametro("@codigo", modificar.Codigo);
                 datos.setearParametro("@nombre", modificar.Nombre);
                 datos.setearParametro("@descripcion", modificar.Descripcion);
-                datos.setearParametro("@idMarca", modificar.Marca.Id);
-                datos.setearParametro("@idCategoria", modificar.Categoria.Id);
+                
+                if(modificar.Marca != null)
+                    datos.setearParametro("@idMarca", modificar.Marca.Id);
+                else
+                    datos.setearParametro("@idMarca", DBNull.Value);
+                if (modificar.Categoria != null)
+                    datos.setearParametro("@idCategoria", modificar.Categoria.Id);
+                else
+                    datos.setearParametro("@idCategoria", DBNull.Value);
+
                 datos.setearParametro("@precio", modificar.Precio);
                 datos.setearParametro("@id", modificar.Id);
 
